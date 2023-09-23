@@ -1,0 +1,164 @@
+[0.000000] (-) TimerEvent: {}
+[0.001996] (-) JobUnselected: {'identifier': 'pi_daq'}
+[0.002650] (-) JobUnselected: {'identifier': 'savedata'}
+[0.004972] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.005334] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.069765] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.099378] (-) TimerEvent: {}
+[0.103487] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.109839] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zzf/auv_dev_ws/build/interfaces', '--', '-j4', '-l4'], 'cwd': '/home/zzf/auv_dev_ws/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zzf'), ('SSH_CLIENT', '192.168.1.108 7603 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/zzf'), ('OLDPWD', '/home/zzf'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-767701a1-b4d4-49a4-aff6-d5288ac938c0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zzf'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c2ddb0f7e4.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zzf/auv_dev_ws/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.108 7603 192.168.1.103 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.199395] (-) TimerEvent: {}
+[0.300302] (-) TimerEvent: {}
+[0.348652] (interfaces) StderrLine: {'line': b"gmake: Warning: File 'Makefile' has modification time 16047136 s in the future\n"}
+[0.400520] (-) TimerEvent: {}
+[0.501643] (-) TimerEvent: {}
+[0.531534] (interfaces) StderrLine: {'line': b"gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 16047136 s in the future\n"}
+[0.542340] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/interfaces__cpp.dir/progress.make' has modification time 16047136 s in the future\n"}
+[0.547068] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_copy_interfaces.dir/progress.make' has modification time 16047136 s in the future\n"}
+[0.549315] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_generator_c.dir/flags.make' has modification time 348 s in the future\n"}
+[0.586253] (interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.590176] (interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.595248] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/interfaces__cpp.dir/progress.make' has modification time 16047136 s in the future\n"}
+[0.597514] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_copy_interfaces.dir/progress.make' has modification time 16047136 s in the future\n"}
+[0.598851] (interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.601837] (-) TimerEvent: {}
+[0.603096] (interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.611108] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_generator_c.dir/flags.make' has modification time 348 s in the future\n"}
+[0.639816] (interfaces) StdoutLine: {'line': b'[  3%] Built target interfaces__cpp\n'}
+[0.663911] (interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.665167] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/flags.make' has modification time 348 s in the future\n"}
+[0.667712] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/flags.make' has modification time 348 s in the future\n"}
+[0.670497] (interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.702046] (-) TimerEvent: {}
+[0.703993] (interfaces) StdoutLine: {'line': b'[ 12%] Built target interfaces__rosidl_generator_c\n'}
+[0.712547] (interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_interfaces\n'}
+[0.723835] (interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.728475] (interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.730868] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/flags.make' has modification time 348 s in the future\n"}
+[0.734124] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/flags.make' has modification time 348 s in the future\n"}
+[0.736357] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make' has modification time 348 s in the future\n"}
+[0.739866] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/flags.make' has modification time 348 s in the future\n"}
+[0.774383] (interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.778194] (interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.782884] (interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.788016] (interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.796085] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/flags.make' has modification time 348 s in the future\n"}
+[0.798629] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make' has modification time 348 s in the future\n"}
+[0.802254] (-) TimerEvent: {}
+[0.808357] (interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.812434] (interfaces) StdoutLine: {'line': b'[ 22%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[0.815249] (interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.835436] (interfaces) StdoutLine: {'line': b'[ 32%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.838345] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/flags.make' has modification time 348 s in the future\n"}
+[0.852606] (interfaces) StdoutLine: {'line': b'[ 41%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.857130] (interfaces) StdoutLine: {'line': b'[ 51%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.866386] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_c.dir/flags.make' has modification time 348 s in the future\n"}
+[0.870445] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_build_interfaces_egg.dir/progress.make' has modification time 16047135 s in the future\n"}
+[0.892266] (interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.902371] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/flags.make' has modification time 348 s in the future\n"}
+[0.903161] (-) TimerEvent: {}
+[0.906705] (interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.911705] (interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.912734] (interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.920168] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_build_interfaces_egg.dir/progress.make' has modification time 16047135 s in the future\n"}
+[0.923690] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_c.dir/flags.make' has modification time 348 s in the future\n"}
+[0.926519] (interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.943203] (interfaces) StdoutLine: {'line': b'[ 61%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[0.964339] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces__rosidl_typesupport_c\n'}
+[0.977019] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/interfaces.dir/progress.make' has modification time 16047135 s in the future\n"}
+[1.003367] (-) TimerEvent: {}
+[1.017174] (interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[1.024704] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/interfaces.dir/progress.make' has modification time 16047135 s in the future\n"}
+[1.026167] (interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[1.062999] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces\n'}
+[1.078128] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'interfaces__py/CMakeFiles/interfaces__py.dir/progress.make' has modification time 16047135 s in the future\n"}
+[1.103586] (-) TimerEvent: {}
+[1.120644] (interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[1.129640] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'interfaces__py/CMakeFiles/interfaces__py.dir/progress.make' has modification time 16047135 s in the future\n"}
+[1.133471] (interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[1.168194] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__py\n'}
+[1.184255] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_generator_py.dir/flags.make' has modification time 348 s in the future\n"}
+[1.203831] (-) TimerEvent: {}
+[1.225594] (interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[1.236706] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_generator_py.dir/flags.make' has modification time 348 s in the future\n"}
+[1.271992] (interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[1.304079] (-) TimerEvent: {}
+[1.307559] (interfaces) StdoutLine: {'line': b'[ 80%] Built target interfaces__rosidl_generator_py\n'}
+[1.325826] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/flags.make' has modification time 348 s in the future\n"}
+[1.333449] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/flags.make' has modification time 348 s in the future\n"}
+[1.336301] (interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/flags.make' has modification time 348 s in the future\n"}
+[1.369235] (interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.370232] (interfaces) StderrLine: {'line': b'  File "/home/zzf/auv_dev_ws/build/interfaces/ament_cmake_python/interfaces/setup.py", line 1, in <module>\n'}
+[1.372345] (interfaces) StderrLine: {'line': b'    from setuptools import find_packages\n'}
+[1.373798] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>\n'}
+[1.375581] (interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build.make:148: CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/depend] Interrupt\n'}
+[1.376901] (interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/build.make:147: CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/depend] Interrupt\n'}
+[1.378438] (interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:504: CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all] Interrupt\n'}
+[1.379102] (interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make:148: CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/depend] Interrupt\n'}
+[1.379544] (interfaces) StderrLine: {'line': b'    import setuptools.version\n'}
+[1.379984] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>\n'}
+[1.380549] (interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:563: CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/all] Interrupt\n'}
+[1.381008] (interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:534: CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/all] Interrupt\n'}
+[1.381424] (interfaces) StderrLine: {'line': b'    import pkg_resources\n'}
+[1.382048] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 78, in <module>\n'}
+[1.382534] (interfaces) StderrLine: {'line': b"    __import__('pkg_resources.extern.packaging.requirements')\n"}
+[1.383002] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/requirements.py", line 10, in <module>\n'}
+[1.383454] (interfaces) StderrLine: {'line': b'    from pkg_resources.extern.pyparsing import (  # noqa\n'}
+[1.383939] (interfaces) StderrLine: {'line': b'  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load\n'}
+[1.384355] (interfaces) StderrLine: {'line': b'  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked\n'}
+[1.384978] (interfaces) StderrLine: {'line': b'  File "<frozen importlib._bootstrap>", line 674, in _load_unlocked\n'}
+[1.385477] (interfaces) StderrLine: {'line': b'  File "<frozen importlib._bootstrap>", line 571, in module_from_spec\n'}
+[1.385920] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/extern/__init__.py", line 52, in create_module\n'}
+[1.386304] (interfaces) StderrLine: {'line': b'    return self.load_module(spec.name)\n'}
+[1.386641] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/extern/__init__.py", line 37, in load_module\n'}
+[1.386976] (interfaces) StderrLine: {'line': b'    __import__(extant)\n'}
+[1.387302] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 5399, in <module>\n'}
+[1.388361] (interfaces) StderrLine: {'line': b'    class pyparsing_common:\n'}
+[1.388816] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 5586, in pyparsing_common\n'}
+[1.391889] (interfaces) StderrLine: {'line': b'    ipv6_address = Combine((_full_ipv6_address | _mixed_ipv6_address | _short_ipv6_address).setName("IPv6 address")).setName("IPv6 address")\n'}
+[1.392450] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 4255, in __init__\n'}
+[1.394525] (interfaces) StderrLine: {'line': b'    self.leaveWhitespace()\n'}
+[1.395064] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3747, in leaveWhitespace\n'}
+[1.396951] (interfaces) StderrLine: {'line': b'    self.expr.leaveWhitespace()\n'}
+[1.397412] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3294, in leaveWhitespace\n'}
+[1.399171] (interfaces) StderrLine: {'line': b'    e.leaveWhitespace()\n'}
+[1.399677] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3294, in leaveWhitespace\n'}
+[1.401313] (interfaces) StderrLine: {'line': b'    e.leaveWhitespace()\n'}
+[1.401829] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3747, in leaveWhitespace\n'}
+[1.404109] (interfaces) StderrLine: {'line': b'    self.expr.leaveWhitespace()\n'}
+[1.404592] (-) TimerEvent: {}
+[1.404991] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3294, in leaveWhitespace\n'}
+[1.406379] (interfaces) StderrLine: {'line': b'    e.leaveWhitespace()\n'}
+[1.406926] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3747, in leaveWhitespace\n'}
+[1.408785] (interfaces) StderrLine: {'line': b'    self.expr.leaveWhitespace()\n'}
+[1.409256] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3294, in leaveWhitespace\n'}
+[1.411262] (interfaces) StderrLine: {'line': b'    e.leaveWhitespace()\n'}
+[1.412014] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3747, in leaveWhitespace\n'}
+[1.414298] (interfaces) StderrLine: {'line': b'    self.expr.leaveWhitespace()\n'}
+[1.414841] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3294, in leaveWhitespace\n'}
+[1.416486] (interfaces) StderrLine: {'line': b'    e.leaveWhitespace()\n'}
+[1.416961] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3747, in leaveWhitespace\n'}
+[1.418916] (interfaces) StderrLine: {'line': b'    self.expr.leaveWhitespace()\n'}
+[1.419466] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3294, in leaveWhitespace\n'}
+[1.421038] (interfaces) StderrLine: {'line': b'    e.leaveWhitespace()\n'}
+[1.421564] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3745, in leaveWhitespace\n'}
+[1.423632] (interfaces) StderrLine: {'line': b'    self.expr = self.expr.copy()\n'}
+[1.424165] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3364, in copy\n'}
+[1.425844] (interfaces) StderrLine: {'line': b'    ret = super(ParseExpression,self).copy()\n'}
+[1.426376] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 1183, in copy\n'}
+[1.427007] (interfaces) StderrLine: {'line': b'    cpy = copy.copy( self )\n'}
+[1.427393] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.10/copy.py", line 92, in copy\n'}
+[1.428006] (interfaces) StderrLine: {'line': b'    rv = reductor(4)\n'}
+[1.429177] (interfaces) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[1.491025] (interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_build_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_interfaces_egg] Interrupt\n'}
+[1.491822] (interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_interfaces_egg.dir/all] Interrupt\n'}
+[1.492370] (interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[1.496371] (interfaces) CommandEnded: {'returncode': -2}
+[1.504803] (-) TimerEvent: {}
+[1.605592] (-) TimerEvent: {}
+[1.706468] (-) TimerEvent: {}
+[1.807362] (-) TimerEvent: {}
+[1.908133] (-) TimerEvent: {}
+[2.009245] (-) TimerEvent: {}
+[2.039351] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 'SIGINT'}
+[2.051535] (-) EventReactorShutdown: {}

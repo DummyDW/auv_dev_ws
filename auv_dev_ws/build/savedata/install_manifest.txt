@@ -1,0 +1,17 @@
+/home/zzf/auv_dev_ws/install/savedata/lib/savedata/Save
+/home/zzf/auv_dev_ws/install/savedata/lib/savedata/MagSave
+/home/zzf/auv_dev_ws/install/savedata/share/ament_index/resource_index/package_run_dependencies/savedata
+/home/zzf/auv_dev_ws/install/savedata/share/ament_index/resource_index/parent_prefix_path/savedata
+/home/zzf/auv_dev_ws/install/savedata/share/savedata/environment/ament_prefix_path.sh
+/home/zzf/auv_dev_ws/install/savedata/share/savedata/environment/ament_prefix_path.dsv
+/home/zzf/auv_dev_ws/install/savedata/share/savedata/environment/path.sh
+/home/zzf/auv_dev_ws/install/savedata/share/savedata/environment/path.dsv
+/home/zzf/auv_dev_ws/install/savedata/share/savedata/local_setup.bash
+/home/zzf/auv_dev_ws/install/savedata/share/savedata/local_setup.sh
+/home/zzf/auv_dev_ws/install/savedata/share/savedata/local_setup.zsh
+/home/zzf/auv_dev_ws/install/savedata/share/savedata/local_setup.dsv
+/home/zzf/auv_dev_ws/install/savedata/share/savedata/package.dsv
+/home/zzf/auv_dev_ws/install/savedata/share/ament_index/resource_index/packages/savedata
+/home/zzf/auv_dev_ws/install/savedata/share/savedata/cmake/savedataConfig.cmake
+/home/zzf/auv_dev_ws/install/savedata/share/savedata/cmake/savedataConfig-version.cmake
+/home/zzf/auv_dev_ws/install/savedata/share/savedata/package.xml

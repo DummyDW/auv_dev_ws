@@ -1,0 +1,13 @@
+<launch>
+  <node pkg="pi_daq" exec="STM32" />
+  <node pkg="pi_daq" exec="Pi" />
+  <node pkg="pi_daq" exec="Magneto" />
+  <node pkg="pi_daq" exec="BDGPS" />
+  <!-- <node pkg="pi_daq" exec="UHF" /> -->
+  <node pkg="pi_daq" exec="EX3040" />
+  <!-- <node pkg="pi_daq" exec="UNM3000" /> -->
+  <!-- <node pkg="pi_daq" exec="P360" /> -->
+  <!-- <node pkg="pi_daq" exec="Server" /> -->
+
+
+</launch>

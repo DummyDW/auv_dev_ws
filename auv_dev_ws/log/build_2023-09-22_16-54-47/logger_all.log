@@ -1,0 +1,293 @@
+[1.876s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.876s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff92977fa0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff928d4910>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff928d4910>>)
+[2.055s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.056s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.056s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.056s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.056s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.056s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.057s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zzf/auv_dev_ws'
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.059s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.059s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.059s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.059s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.118s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.119s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.119s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.119s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.120s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[2.120s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[2.120s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore'
+[2.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore_ament_install'
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_pkg']
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_pkg'
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_meta']
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_meta'
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ros']
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ros'
+[2.141s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interfaces' with type 'ros.ament_cmake' and name 'interfaces'
+[2.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/pi_daq) by extensions ['ignore', 'ignore_ament_install']
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/pi_daq) by extension 'ignore'
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/pi_daq) by extension 'ignore_ament_install'
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/pi_daq) by extensions ['colcon_pkg']
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/pi_daq) by extension 'colcon_pkg'
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/pi_daq) by extensions ['colcon_meta']
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/pi_daq) by extension 'colcon_meta'
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/pi_daq) by extensions ['ros']
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/pi_daq) by extension 'ros'
+[2.145s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pi_daq' with type 'ros.ament_cmake' and name 'pi_daq'
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/savedata) by extensions ['ignore', 'ignore_ament_install']
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/savedata) by extension 'ignore'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/savedata) by extension 'ignore_ament_install'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/savedata) by extensions ['colcon_pkg']
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/savedata) by extension 'colcon_pkg'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/savedata) by extensions ['colcon_meta']
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/savedata) by extension 'colcon_meta'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/savedata) by extensions ['ros']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/savedata) by extension 'ros'
+[2.150s] DEBUG:colcon.colcon_core.package_identification:Package 'src/savedata' with type 'ros.ament_cmake' and name 'savedata'
+[2.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.284s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/zzf/auv_dev_ws/install
+[2.297s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[2.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.664s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_args' from command line to 'None'
+[2.665s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target' from command line to 'None'
+[2.665s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.665s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[2.665s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[2.665s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[2.666s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[2.666s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[2.666s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.666s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zzf/auv_dev_ws/build/interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zzf/auv_dev_ws/install/interfaces', 'merge_install': False, 'path': '/home/zzf/auv_dev_ws/src/interfaces', 'symlink_install': False, 'test_result_base': None}
+[2.671s] Level 5:colcon.colcon_core.verb:set package 'pi_daq' build argument 'cmake_args' from command line to 'None'
+[2.672s] Level 5:colcon.colcon_core.verb:set package 'pi_daq' build argument 'cmake_target' from command line to 'None'
+[2.672s] Level 5:colcon.colcon_core.verb:set package 'pi_daq' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.672s] Level 5:colcon.colcon_core.verb:set package 'pi_daq' build argument 'cmake_clean_cache' from command line to 'False'
+[2.672s] Level 5:colcon.colcon_core.verb:set package 'pi_daq' build argument 'cmake_clean_first' from command line to 'False'
+[2.672s] Level 5:colcon.colcon_core.verb:set package 'pi_daq' build argument 'cmake_force_configure' from command line to 'False'
+[2.672s] Level 5:colcon.colcon_core.verb:set package 'pi_daq' build argument 'ament_cmake_args' from command line to 'None'
+[2.672s] Level 5:colcon.colcon_core.verb:set package 'pi_daq' build argument 'catkin_cmake_args' from command line to 'None'
+[2.673s] Level 5:colcon.colcon_core.verb:set package 'pi_daq' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.673s] DEBUG:colcon.colcon_core.verb:Building package 'pi_daq' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zzf/auv_dev_ws/build/pi_daq', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zzf/auv_dev_ws/install/pi_daq', 'merge_install': False, 'path': '/home/zzf/auv_dev_ws/src/pi_daq', 'symlink_install': False, 'test_result_base': None}
+[2.678s] Level 5:colcon.colcon_core.verb:set package 'savedata' build argument 'cmake_args' from command line to 'None'
+[2.678s] Level 5:colcon.colcon_core.verb:set package 'savedata' build argument 'cmake_target' from command line to 'None'
+[2.679s] Level 5:colcon.colcon_core.verb:set package 'savedata' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.679s] Level 5:colcon.colcon_core.verb:set package 'savedata' build argument 'cmake_clean_cache' from command line to 'False'
+[2.679s] Level 5:colcon.colcon_core.verb:set package 'savedata' build argument 'cmake_clean_first' from command line to 'False'
+[2.679s] Level 5:colcon.colcon_core.verb:set package 'savedata' build argument 'cmake_force_configure' from command line to 'False'
+[2.679s] Level 5:colcon.colcon_core.verb:set package 'savedata' build argument 'ament_cmake_args' from command line to 'None'
+[2.679s] Level 5:colcon.colcon_core.verb:set package 'savedata' build argument 'catkin_cmake_args' from command line to 'None'
+[2.679s] Level 5:colcon.colcon_core.verb:set package 'savedata' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.680s] DEBUG:colcon.colcon_core.verb:Building package 'savedata' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zzf/auv_dev_ws/build/savedata', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zzf/auv_dev_ws/install/savedata', 'merge_install': False, 'path': '/home/zzf/auv_dev_ws/src/savedata', 'symlink_install': False, 'test_result_base': None}
+[2.683s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.698s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.700s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zzf/auv_dev_ws/src/interfaces' with build type 'ament_cmake'
+[2.701s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zzf/auv_dev_ws/src/interfaces'
+[2.727s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.728s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.729s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.785s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zzf/auv_dev_ws/src/pi_daq' with build type 'ament_cmake'
+[2.788s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zzf/auv_dev_ws/src/pi_daq'
+[2.797s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.798s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.852s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zzf/auv_dev_ws/src/savedata' with build type 'ament_cmake'
+[2.854s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zzf/auv_dev_ws/src/savedata'
+[2.866s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.867s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zzf/auv_dev_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zzf/auv_dev_ws/build/interfaces -- -j4 -l4
+[3.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zzf/auv_dev_ws/build/pi_daq': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zzf/auv_dev_ws/build/pi_daq -- -j4 -l4
+[3.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zzf/auv_dev_ws/build/savedata': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zzf/auv_dev_ws/build/savedata -- -j4 -l4
+[4.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zzf/auv_dev_ws/build/savedata' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zzf/auv_dev_ws/build/savedata -- -j4 -l4
+[4.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zzf/auv_dev_ws/build/savedata': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zzf/auv_dev_ws/build/savedata
+[4.883s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(savedata)
+[4.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zzf/auv_dev_ws/build/savedata' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zzf/auv_dev_ws/build/savedata
+[4.951s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/savedata' for CMake module files
+[4.955s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/savedata' for CMake config files
+[4.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('savedata', 'cmake_prefix_path')
+[4.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzf/auv_dev_ws/install/savedata/share/savedata/hook/cmake_prefix_path.ps1'
+[5.038s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zzf/auv_dev_ws/install/savedata/share/savedata/hook/cmake_prefix_path.dsv'
+[5.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzf/auv_dev_ws/install/savedata/share/savedata/hook/cmake_prefix_path.sh'
+[5.046s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/savedata/lib'
+[5.047s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/savedata/bin'
+[5.047s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/savedata/lib/pkgconfig/savedata.pc'
+[5.048s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/savedata/lib/python3.10/site-packages'
+[5.049s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/savedata/bin'
+[5.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzf/auv_dev_ws/install/savedata/share/savedata/package.ps1'
+[5.065s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zzf/auv_dev_ws/install/savedata/share/savedata/package.dsv'
+[5.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzf/auv_dev_ws/install/savedata/share/savedata/package.sh'
+[5.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzf/auv_dev_ws/install/savedata/share/savedata/package.bash'
+[5.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzf/auv_dev_ws/install/savedata/share/savedata/package.zsh'
+[5.448s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zzf/auv_dev_ws/install/savedata/share/colcon-core/packages/savedata)
+[5.634s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(savedata)
+[5.647s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/savedata' for CMake module files
+[5.651s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/savedata' for CMake config files
+[5.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('savedata', 'cmake_prefix_path')
+[5.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzf/auv_dev_ws/install/savedata/share/savedata/hook/cmake_prefix_path.ps1'
+[5.829s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zzf/auv_dev_ws/install/savedata/share/savedata/hook/cmake_prefix_path.dsv'
+[5.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzf/auv_dev_ws/install/savedata/share/savedata/hook/cmake_prefix_path.sh'
+[5.833s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/savedata/lib'
+[5.834s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/savedata/bin'
+[5.834s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/savedata/lib/pkgconfig/savedata.pc'
+[5.836s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/savedata/lib/python3.10/site-packages'
+[5.837s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/savedata/bin'
+[5.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzf/auv_dev_ws/install/savedata/share/savedata/package.ps1'
+[5.849s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zzf/auv_dev_ws/install/savedata/share/savedata/package.dsv'
+[5.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzf/auv_dev_ws/install/savedata/share/savedata/package.sh'
+[5.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzf/auv_dev_ws/install/savedata/share/savedata/package.bash'
+[5.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzf/auv_dev_ws/install/savedata/share/savedata/package.zsh'
+[5.864s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zzf/auv_dev_ws/install/savedata/share/colcon-core/packages/savedata)
+[6.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zzf/auv_dev_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zzf/auv_dev_ws/build/interfaces -- -j4 -l4
+[6.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zzf/auv_dev_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zzf/auv_dev_ws/build/interfaces
+[7.163s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[7.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zzf/auv_dev_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zzf/auv_dev_ws/build/interfaces
+[7.177s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/interfaces' for CMake module files
+[7.182s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/interfaces' for CMake config files
+[7.186s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[7.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzf/auv_dev_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[7.197s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zzf/auv_dev_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[7.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzf/auv_dev_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[7.203s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/interfaces/lib'
+[7.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[7.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzf/auv_dev_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[7.215s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zzf/auv_dev_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[7.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzf/auv_dev_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[7.221s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/interfaces/bin'
+[7.221s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/interfaces/lib/pkgconfig/interfaces.pc'
+[7.223s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/interfaces/lib/python3.10/site-packages'
+[7.224s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/interfaces/bin'
+[7.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzf/auv_dev_ws/install/interfaces/share/interfaces/package.ps1'
+[7.248s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zzf/auv_dev_ws/install/interfaces/share/interfaces/package.dsv'
+[7.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzf/auv_dev_ws/install/interfaces/share/interfaces/package.sh'
+[7.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzf/auv_dev_ws/install/interfaces/share/interfaces/package.bash'
+[7.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzf/auv_dev_ws/install/interfaces/share/interfaces/package.zsh'
+[7.276s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zzf/auv_dev_ws/install/interfaces/share/colcon-core/packages/interfaces)
+[7.766s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[7.805s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/interfaces' for CMake module files
+[7.810s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/interfaces' for CMake config files
+[7.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[7.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzf/auv_dev_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[7.833s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zzf/auv_dev_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[7.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzf/auv_dev_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[7.840s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/interfaces/lib'
+[7.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[7.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzf/auv_dev_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[7.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zzf/auv_dev_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[7.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzf/auv_dev_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[7.865s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/interfaces/bin'
+[7.865s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/interfaces/lib/pkgconfig/interfaces.pc'
+[7.867s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/interfaces/lib/python3.10/site-packages'
+[7.869s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/interfaces/bin'
+[7.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzf/auv_dev_ws/install/interfaces/share/interfaces/package.ps1'
+[7.904s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zzf/auv_dev_ws/install/interfaces/share/interfaces/package.dsv'
+[7.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzf/auv_dev_ws/install/interfaces/share/interfaces/package.sh'
+[7.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzf/auv_dev_ws/install/interfaces/share/interfaces/package.bash'
+[7.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzf/auv_dev_ws/install/interfaces/share/interfaces/package.zsh'
+[7.931s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zzf/auv_dev_ws/install/interfaces/share/colcon-core/packages/interfaces)
+[51.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zzf/auv_dev_ws/build/pi_daq' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zzf/auv_dev_ws/build/pi_daq -- -j4 -l4
+[51.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zzf/auv_dev_ws/build/pi_daq': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zzf/auv_dev_ws/build/pi_daq
+[51.700s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pi_daq)
+[51.711s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/pi_daq' for CMake module files
+[51.715s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zzf/auv_dev_ws/build/pi_daq' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zzf/auv_dev_ws/build/pi_daq
+[51.719s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/pi_daq' for CMake config files
+[51.722s] Level 1:colcon.colcon_core.shell:create_environment_hook('pi_daq', 'cmake_prefix_path')
+[51.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/hook/cmake_prefix_path.ps1'
+[51.731s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/hook/cmake_prefix_path.dsv'
+[51.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/hook/cmake_prefix_path.sh'
+[51.736s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/pi_daq/lib'
+[51.737s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/pi_daq/bin'
+[51.737s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/pi_daq/lib/pkgconfig/pi_daq.pc'
+[51.739s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/pi_daq/lib/python3.10/site-packages'
+[51.740s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/pi_daq/bin'
+[51.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/package.ps1'
+[51.749s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/package.dsv'
+[51.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/package.sh'
+[51.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/package.bash'
+[51.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/package.zsh'
+[51.759s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zzf/auv_dev_ws/install/pi_daq/share/colcon-core/packages/pi_daq)
+[52.148s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pi_daq)
+[52.167s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/pi_daq' for CMake module files
+[52.179s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/pi_daq' for CMake config files
+[52.182s] Level 1:colcon.colcon_core.shell:create_environment_hook('pi_daq', 'cmake_prefix_path')
+[52.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/hook/cmake_prefix_path.ps1'
+[52.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/hook/cmake_prefix_path.dsv'
+[52.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/hook/cmake_prefix_path.sh'
+[52.196s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/pi_daq/lib'
+[52.196s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/pi_daq/bin'
+[52.197s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/pi_daq/lib/pkgconfig/pi_daq.pc'
+[52.199s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/pi_daq/lib/python3.10/site-packages'
+[52.200s] Level 1:colcon.colcon_core.environment:checking '/home/zzf/auv_dev_ws/install/pi_daq/bin'
+[52.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/package.ps1'
+[52.210s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/package.dsv'
+[52.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/package.sh'
+[52.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/package.bash'
+[52.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/package.zsh'
+[52.221s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zzf/auv_dev_ws/install/pi_daq/share/colcon-core/packages/pi_daq)
+[52.222s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[52.224s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[52.225s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[52.226s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[52.255s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[52.255s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[52.256s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[52.256s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[52.260s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[52.260s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[52.267s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zzf/auv_dev_ws/install/local_setup.ps1'
+[52.271s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zzf/auv_dev_ws/install/_local_setup_util_ps1.py'
+[52.277s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zzf/auv_dev_ws/install/setup.ps1'
+[52.285s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zzf/auv_dev_ws/install/local_setup.sh'
+[52.288s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zzf/auv_dev_ws/install/_local_setup_util_sh.py'
+[52.291s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zzf/auv_dev_ws/install/setup.sh'
+[52.300s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zzf/auv_dev_ws/install/local_setup.bash'
+[52.304s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zzf/auv_dev_ws/install/setup.bash'
+[52.312s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zzf/auv_dev_ws/install/local_setup.zsh'
+[52.315s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zzf/auv_dev_ws/install/setup.zsh'

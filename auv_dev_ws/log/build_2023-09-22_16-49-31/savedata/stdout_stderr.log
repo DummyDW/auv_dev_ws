@@ -1,0 +1,26 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/Save.dir/src/save.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/MagSave.dir/src/magsave.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable Save[0m
+[100%] [32m[1mLinking CXX executable MagSave[0m
+[100%] Built target Save
+[100%] Built target MagSave
+-- Install configuration: ""
+-- Installing: /home/zzf/auv_dev_ws/install/savedata/lib/savedata/Save
+-- Set runtime path of "/home/zzf/auv_dev_ws/install/savedata/lib/savedata/Save" to ""
+-- Installing: /home/zzf/auv_dev_ws/install/savedata/lib/savedata/MagSave
+-- Set runtime path of "/home/zzf/auv_dev_ws/install/savedata/lib/savedata/MagSave" to ""
+-- Installing: /home/zzf/auv_dev_ws/install/savedata/share/ament_index/resource_index/package_run_dependencies/savedata
+-- Installing: /home/zzf/auv_dev_ws/install/savedata/share/ament_index/resource_index/parent_prefix_path/savedata
+-- Installing: /home/zzf/auv_dev_ws/install/savedata/share/savedata/environment/ament_prefix_path.sh
+-- Installing: /home/zzf/auv_dev_ws/install/savedata/share/savedata/environment/ament_prefix_path.dsv
+-- Installing: /home/zzf/auv_dev_ws/install/savedata/share/savedata/environment/path.sh
+-- Installing: /home/zzf/auv_dev_ws/install/savedata/share/savedata/environment/path.dsv
+-- Installing: /home/zzf/auv_dev_ws/install/savedata/share/savedata/local_setup.bash
+-- Installing: /home/zzf/auv_dev_ws/install/savedata/share/savedata/local_setup.sh
+-- Installing: /home/zzf/auv_dev_ws/install/savedata/share/savedata/local_setup.zsh
+-- Installing: /home/zzf/auv_dev_ws/install/savedata/share/savedata/local_setup.dsv
+-- Installing: /home/zzf/auv_dev_ws/install/savedata/share/savedata/package.dsv
+-- Installing: /home/zzf/auv_dev_ws/install/savedata/share/ament_index/resource_index/packages/savedata
+-- Installing: /home/zzf/auv_dev_ws/install/savedata/share/savedata/cmake/savedataConfig.cmake
+-- Installing: /home/zzf/auv_dev_ws/install/savedata/share/savedata/cmake/savedataConfig-version.cmake
+-- Installing: /home/zzf/auv_dev_ws/install/savedata/share/savedata/package.xml

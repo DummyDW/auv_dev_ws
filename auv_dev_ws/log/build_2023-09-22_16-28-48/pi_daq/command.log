@@ -1,0 +1,3 @@
+Invoking command in '/home/zzf/auv_dev_ws/build/pi_daq': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zzf/auv_dev_ws/src/pi_daq -DCMAKE_INSTALL_PREFIX=/home/zzf/auv_dev_ws/install/pi_daq
+Invoked command in '/home/zzf/auv_dev_ws/build/pi_daq' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zzf/auv_dev_ws/src/pi_daq -DCMAKE_INSTALL_PREFIX=/home/zzf/auv_dev_ws/install/pi_daq
+Invoking command in '/home/zzf/auv_dev_ws/build/pi_daq': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zzf/auv_dev_ws/build/pi_daq -- -j4 -l4

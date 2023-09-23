@@ -1,0 +1,308 @@
+[0.056s] Invoking command in '/home/zzf/auv_dev_ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zzf/auv_dev_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/zzf/auv_dev_ws/install/interfaces
+[0.918s] -- The C compiler identification is GNU 11.4.0
+[1.661s] -- The CXX compiler identification is GNU 11.4.0
+[1.706s] -- Detecting C compiler ABI info
+[2.072s] -- Detecting C compiler ABI info - done
+[2.102s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.104s] -- Detecting C compile features
+[2.106s] -- Detecting C compile features - done
+[2.126s] -- Detecting CXX compiler ABI info
+[2.519s] -- Detecting CXX compiler ABI info - done
+[2.551s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.552s] -- Detecting CXX compile features
+[2.554s] -- Detecting CXX compile features - done
+[2.577s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[3.470s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.481s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.534s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.610s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.714s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.859s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.996s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[5.500s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[6.989s] -- Found ament_cmake_cppcheck: 0.12.7 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[7.013s] -- Found ament_cmake_cpplint: 0.12.7 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[7.037s] -- Found ament_cmake_uncrustify: 0.12.7 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[7.063s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[9.282s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.128s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.251s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[10.272s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[10.403s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[10.404s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.404s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[10.405s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[10.516s] -- Found PythonExtra: .so  
+[10.834s] -- Found ament_cmake_flake8: 0.12.7 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[10.858s] -- Found ament_cmake_pep257: 0.12.7 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[10.887s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.019s] -- Added test 'lint_cmake' to check CMake code style
+[11.022s] -- Added test 'xmllint' to check XML markup files
+[11.042s] -- Configuring done
+[11.260s] -- Generating done
+[11.276s] -- Build files have been written to: /home/zzf/auv_dev_ws/build/interfaces
+[11.316s] Invoked command in '/home/zzf/auv_dev_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zzf/auv_dev_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/zzf/auv_dev_ws/install/interfaces
+[11.327s] Invoking command in '/home/zzf/auv_dev_ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zzf/auv_dev_ws/build/interfaces -- -j4 -l4
+[11.463s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[12.357s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[12.369s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[12.397s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[12.449s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.523s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.590s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[13.006s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[14.420s] -- Found ament_cmake_cppcheck: 0.12.7 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[14.423s] -- Found ament_cmake_cpplint: 0.12.7 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[14.427s] -- Found ament_cmake_uncrustify: 0.12.7 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[14.431s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[16.520s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[17.360s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[17.485s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[17.603s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[17.604s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[17.604s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[17.790s] -- Found ament_cmake_flake8: 0.12.7 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[17.794s] -- Found ament_cmake_pep257: 0.12.7 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[17.801s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[17.851s] -- Added test 'lint_cmake' to check CMake code style
+[17.852s] -- Added test 'xmllint' to check XML markup files
+[17.863s] -- Configuring done
+[18.078s] -- Generating done
+[18.099s] -- Build files have been written to: /home/zzf/auv_dev_ws/build/interfaces
+[18.182s] gmake[2]: Warning: File '/opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl' has modification time 10645425 s in the future
+[18.218s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[18.230s] gmake[2]: Warning: File '/opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl' has modification time 10645425 s in the future
+[18.268s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[18.311s] [  6%] Built target ament_cmake_python_copy_interfaces
+[19.588s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[19.628s] [  6%] Built target interfaces__cpp
+[19.641s] gmake[2]: Warning: File '/opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl' has modification time 10645423 s in the future
+[19.643s] gmake[2]: Warning: File '/opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl' has modification time 10645423 s in the future
+[19.669s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[19.680s] gmake[2]: Warning: File '/opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl' has modification time 10645423 s in the future
+[19.684s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[19.696s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[19.724s] [ 12%] [34m[1mGenerating C code for ROS interfaces[0m
+[20.183s] running egg_info
+[20.187s] creating interfaces.egg-info
+[20.188s] writing interfaces.egg-info/PKG-INFO
+[20.190s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[20.193s] writing top-level names to interfaces.egg-info/top_level.txt
+[20.195s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[20.207s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[20.211s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[20.388s] [ 12%] Built target ament_cmake_python_build_interfaces_egg
+[20.403s] gmake[2]: Warning: File '/opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl' has modification time 10645422 s in the future
+[20.448s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[20.897s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[20.919s] gmake[2]: Warning: File '/opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl' has modification time 10645422 s in the future
+[20.976s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[21.153s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[21.163s] gmake[2]: Warning: File '/opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl' has modification time 10645422 s in the future
+[21.206s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[21.216s] [ 19%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/uint8_array__functions.c.o[0m
+[21.630s] [ 22%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[21.831s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[21.842s] gmake[2]: Warning: File '/opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl' has modification time 10645421 s in the future
+[21.845s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[21.887s] [ 22%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[21.892s] [ 22%] Built target interfaces__rosidl_generator_c
+[21.917s] gmake[2]: Warning: File '/opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl' has modification time 10645421 s in the future
+[21.961s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[22.305s] [ 29%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/uint8_array__type_support.cpp.o[0m
+[22.561s] [ 32%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/uint8_array__type_support.cpp.o[0m
+[23.179s] [ 35%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/uint8_array__type_support.cpp.o[0m
+[23.326s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[23.336s] gmake[2]: Warning: File '/opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl' has modification time 10645420 s in the future
+[23.377s] [ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[24.664s] [ 38%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[24.872s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[24.920s] [ 38%] Built target interfaces__rosidl_typesupport_cpp
+[24.936s] gmake[2]: Warning: File '/opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl' has modification time 10645418 s in the future
+[24.983s] [ 41%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/uint8_array__type_support_c.cpp.o[0m
+[24.986s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[25.993s] [ 48%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[26.365s] [ 51%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[26.384s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[26.436s] [ 51%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[26.448s] gmake[2]: Warning: File '/opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl' has modification time 10645416 s in the future
+[26.488s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[26.522s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[26.537s] gmake[2]: Warning: File '/opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl' has modification time 10645416 s in the future
+[26.590s] [ 54%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[26.843s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[26.893s] [ 54%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[27.687s] [ 58%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[27.723s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[27.732s] gmake[2]: Warning: File '/opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl' has modification time 10645415 s in the future
+[27.784s] [ 58%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[27.930s] [ 61%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/uint8_array__type_support.c.o[0m
+[28.082s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[28.123s] [ 61%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[28.179s] [ 64%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[28.292s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[28.326s] [ 64%] Built target interfaces__rosidl_typesupport_introspection_c
+[28.826s] [ 67%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/uint8_array__type_support.cpp.o[0m
+[29.008s] [ 70%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[29.156s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[29.193s] [ 70%] Built target interfaces__rosidl_typesupport_c
+[29.253s] gmake[2]: Warning: File '/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl' has modification time 10645356 s in the future
+[29.254s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[29.291s] [ 70%] Built target interfaces
+[29.349s] gmake[2]: Warning: File '/opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl' has modification time 10645413 s in the future
+[29.386s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[30.671s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[30.706s] [ 74%] Built target interfaces__py
+[30.763s] gmake[2]: Warning: File '/usr/lib/aarch64-linux-gnu/libpython3.10.so' has modification time 7136723 s in the future
+[30.797s] [ 77%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_uint8_array_s.c.o[0m
+[31.468s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.so[0m
+[31.646s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[31.685s] [ 80%] Built target interfaces__rosidl_generator_py
+[31.749s] gmake[2]: Warning: File '/usr/lib/aarch64-linux-gnu/libpython3.10.so' has modification time 7136722 s in the future
+[31.752s] gmake[2]: Warning: File '/usr/lib/aarch64-linux-gnu/libpython3.10.so' has modification time 7136722 s in the future
+[31.755s] gmake[2]: Warning: File '/usr/lib/aarch64-linux-gnu/libpython3.10.so' has modification time 7136722 s in the future
+[31.785s] [ 83%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[31.788s] [ 87%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[31.797s] [ 90%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[32.402s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[32.403s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[32.413s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[32.643s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[32.646s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[32.659s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[32.683s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[32.686s] [100%] Built target interfaces__rosidl_typesupport_c__pyext
+[32.697s] [100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[32.744s] Invoked command in '/home/zzf/auv_dev_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zzf/auv_dev_ws/build/interfaces -- -j4 -l4
+[33.208s] Invoking command in '/home/zzf/auv_dev_ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zzf/auv_dev_ws/build/interfaces
+[33.241s] -- Install configuration: ""
+[33.242s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[33.243s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces
+[33.244s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg
+[33.245s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
+[33.246s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/uint8_array.h
+[33.247s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[33.248s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__functions.h
+[33.249s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__struct.h
+[33.250s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__type_support.h
+[33.251s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__functions.c
+[33.253s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/environment/library_path.sh
+[33.254s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/environment/library_path.dsv
+[33.256s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[33.259s] -- Set runtime path of "/home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[33.259s] -- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces
+[33.260s] -- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg
+[33.260s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[33.261s] -- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[33.262s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__rosidl_typesupport_fastrtps_c.h
+[33.263s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[33.266s] -- Set runtime path of "/home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[33.267s] -- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces
+[33.268s] -- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg
+[33.268s] -- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[33.268s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__traits.hpp
+[33.269s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__struct.hpp
+[33.270s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__builder.hpp
+[33.271s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/uint8_array.hpp
+[33.273s] -- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces
+[33.273s] -- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg
+[33.273s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[33.275s] -- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[33.276s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__rosidl_typesupport_fastrtps_cpp.hpp
+[33.277s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps
+[33.278s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[33.281s] -- Set runtime path of "/home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[33.282s] -- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces
+[33.283s] -- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg
+[33.283s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[33.284s] -- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[33.284s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__rosidl_typesupport_introspection_c.h
+[33.286s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__type_support.c
+[33.287s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[33.290s] -- Set runtime path of "/home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[33.291s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[33.293s] -- Set runtime path of "/home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[33.294s] -- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces
+[33.294s] -- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg
+[33.295s] -- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[33.295s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__rosidl_typesupport_introspection_cpp.hpp
+[33.296s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__type_support.cpp
+[33.298s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[33.301s] -- Set runtime path of "/home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[33.301s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[33.304s] -- Set runtime path of "/home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[33.304s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/environment/pythonpath.sh
+[33.306s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[33.307s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info
+[33.308s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[33.309s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[33.310s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[33.312s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[33.313s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces
+[33.314s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[33.315s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py
+[33.316s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg
+[33.317s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py
+[33.318s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_uint8_array.py
+[33.319s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_uint8_array_s.c
+[33.321s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[33.322s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[33.324s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+[33.325s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[33.326s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so
+[33.328s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[33.492s] Listing '/home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...
+[33.493s] Compiling '/home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...
+[33.494s] Listing '/home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...
+[33.495s] Compiling '/home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py'...
+[33.496s] Compiling '/home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_uint8_array.py'...
+[33.517s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[33.520s] -- Set runtime path of "/home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[33.522s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[33.525s] -- Set runtime path of "/home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[33.526s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[33.529s] -- Set runtime path of "/home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[33.530s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so
+[33.533s] -- Set runtime path of "/home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""
+[33.533s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/msg/Uint8Array.idl
+[33.535s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/msg/Uint8Array.msg
+[33.536s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[33.538s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[33.539s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[33.540s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[33.542s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/environment/path.sh
+[33.543s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/environment/path.dsv
+[33.544s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/local_setup.bash
+[33.545s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/local_setup.sh
+[33.547s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/local_setup.zsh
+[33.548s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/local_setup.dsv
+[33.549s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/package.dsv
+[33.550s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[33.552s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake
+[33.553s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake
+[33.555s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[33.557s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[33.558s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake
+[33.560s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[33.561s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[33.563s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[33.564s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[33.566s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[33.567s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[33.569s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[33.570s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[33.572s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[33.573s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[33.575s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake
+[33.577s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[33.578s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[33.579s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.581s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.583s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[33.584s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[33.586s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[33.587s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[33.588s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[33.589s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[33.591s] -- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/package.xml
+[33.601s] Invoked command in '/home/zzf/auv_dev_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zzf/auv_dev_ws/build/interfaces

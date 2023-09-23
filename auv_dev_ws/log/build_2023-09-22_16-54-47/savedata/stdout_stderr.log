@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target MagSave[0m
+[35m[1mConsolidate compiler generated dependencies of target Save[0m
+[ 50%] Built target MagSave
+[100%] Built target Save
+-- Install configuration: ""
+-- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/lib/savedata/Save
+-- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/lib/savedata/MagSave
+-- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/ament_index/resource_index/package_run_dependencies/savedata
+-- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/ament_index/resource_index/parent_prefix_path/savedata
+-- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/savedata/environment/ament_prefix_path.sh
+-- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/savedata/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/savedata/environment/path.sh
+-- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/savedata/environment/path.dsv
+-- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/savedata/local_setup.bash
+-- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/savedata/local_setup.sh
+-- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/savedata/local_setup.zsh
+-- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/savedata/local_setup.dsv
+-- Installing: /home/zzf/auv_dev_ws/install/savedata/share/savedata/package.dsv
+-- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/ament_index/resource_index/packages/savedata
+-- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/savedata/cmake/savedataConfig.cmake
+-- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/savedata/cmake/savedataConfig-version.cmake
+-- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/savedata/package.xml

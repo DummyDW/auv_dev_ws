@@ -1,0 +1,186 @@
+[0.000000] (-) TimerEvent: {}
+[0.001916] (-) JobUnselected: {'identifier': 'pi_daq'}
+[0.002606] (-) JobUnselected: {'identifier': 'savedata'}
+[0.005010] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.005371] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.056363] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.060122] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.063819] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zzf/auv_dev_ws/build/interfaces', '--', '-j4', '-l4'], 'cwd': '/home/zzf/auv_dev_ws/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zzf'), ('SSH_CLIENT', '192.168.1.108 7603 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/zzf'), ('OLDPWD', '/home/zzf'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-767701a1-b4d4-49a4-aff6-d5288ac938c0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zzf'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c2ddb0f7e4.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zzf/auv_dev_ws/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.108 7603 192.168.1.103 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099148] (-) TimerEvent: {}
+[0.199916] (-) TimerEvent: {}
+[0.300731] (-) TimerEvent: {}
+[0.305254] (interfaces) StdoutLine: {'line': b'[  3%] Built target interfaces__cpp\n'}
+[0.314621] (interfaces) StdoutLine: {'line': b'[ 12%] Built target interfaces__rosidl_generator_c\n'}
+[0.364326] (interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_interfaces\n'}
+[0.400957] (-) TimerEvent: {}
+[0.443173] (interfaces) StdoutLine: {'line': b'[ 22%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.455221] (interfaces) StdoutLine: {'line': b'[ 32%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[0.466414] (interfaces) StdoutLine: {'line': b'[ 41%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.478958] (interfaces) StdoutLine: {'line': b'[ 51%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.501179] (-) TimerEvent: {}
+[0.551424] (interfaces) StdoutLine: {'line': b'[ 61%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[0.559545] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces__rosidl_typesupport_c\n'}
+[0.601361] (-) TimerEvent: {}
+[0.651300] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces\n'}
+[0.701537] (-) TimerEvent: {}
+[0.754120] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__py\n'}
+[0.801862] (-) TimerEvent: {}
+[0.857001] (interfaces) StdoutLine: {'line': b'[ 80%] Built target interfaces__rosidl_generator_py\n'}
+[0.902086] (-) TimerEvent: {}
+[0.977761] (interfaces) StdoutLine: {'line': b'[ 87%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.988218] (interfaces) StdoutLine: {'line': b'[ 93%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.994399] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[1.002293] (-) TimerEvent: {}
+[1.103023] (-) TimerEvent: {}
+[1.203775] (-) TimerEvent: {}
+[1.304644] (-) TimerEvent: {}
+[1.405404] (-) TimerEvent: {}
+[1.506103] (-) TimerEvent: {}
+[1.606836] (-) TimerEvent: {}
+[1.707554] (-) TimerEvent: {}
+[1.808265] (-) TimerEvent: {}
+[1.889544] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.893472] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[1.894877] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[1.896247] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[1.908436] (-) TimerEvent: {}
+[1.910409] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[1.913945] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[2.008686] (-) TimerEvent: {}
+[2.047293] (interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[2.091834] (interfaces) CommandEnded: {'returncode': 0}
+[2.108895] (-) TimerEvent: {}
+[2.209724] (-) TimerEvent: {}
+[2.310638] (-) TimerEvent: {}
+[2.412594] (-) TimerEvent: {}
+[2.508968] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[2.512746] (-) TimerEvent: {}
+[2.546622] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zzf/auv_dev_ws/build/interfaces'], 'cwd': '/home/zzf/auv_dev_ws/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zzf'), ('SSH_CLIENT', '192.168.1.108 7603 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/zzf'), ('OLDPWD', '/home/zzf'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-767701a1-b4d4-49a4-aff6-d5288ac938c0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zzf'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c2ddb0f7e4.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zzf/auv_dev_ws/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.108 7603 192.168.1.103 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.588737] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.589609] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[2.590168] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces\n'}
+[2.590738] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[2.591307] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.591789] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/uint8_array.h\n'}
+[2.592326] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[2.592775] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__functions.h\n'}
+[2.593291] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__struct.h\n'}
+[2.593820] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__type_support.h\n'}
+[2.594301] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__functions.c\n'}
+[2.594733] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[2.595111] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[2.595901] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[2.598015] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces\n'}
+[2.598769] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[2.599415] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.600078] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[2.600625] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__rosidl_typesupport_fastrtps_c.h\n'}
+[2.602540] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.604102] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces\n'}
+[2.604744] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[2.605302] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[2.605963] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__traits.hpp\n'}
+[2.606544] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__struct.hpp\n'}
+[2.607086] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__builder.hpp\n'}
+[2.607571] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/uint8_array.hpp\n'}
+[2.608114] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces\n'}
+[2.608675] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[2.609103] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.609541] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[2.609963] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.610510] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps\n'}
+[2.611648] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.612860] (-) TimerEvent: {}
+[2.613403] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces\n'}
+[2.614150] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[2.614714] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.615285] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[2.615753] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__rosidl_typesupport_introspection_c.h\n'}
+[2.616148] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__type_support.c\n'}
+[2.617715] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.620791] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[2.622394] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces\n'}
+[2.623070] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[2.623574] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[2.624045] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.624699] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__type_support.cpp\n'}
+[2.626145] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.629073] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[2.630434] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[2.631031] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[2.631532] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info\n'}
+[2.632029] (interfaces) StdoutLine: {'line': b'-- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.633200] (interfaces) StdoutLine: {'line': b'-- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.634582] (interfaces) StdoutLine: {'line': b'-- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.635905] (interfaces) StdoutLine: {'line': b'-- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.637353] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces\n'}
+[2.637979] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.638638] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py\n'}
+[2.639144] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg\n'}
+[2.639665] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py\n'}
+[2.640137] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_uint8_array.py\n'}
+[2.640605] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_uint8_array_s.c\n'}
+[2.641127] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.641616] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.642250] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[2.642786] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.643269] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so\n'}
+[2.643791] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.713053] (-) TimerEvent: {}
+[2.797127] (interfaces) StdoutLine: {'line': b"Listing '/home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...\n"}
+[2.798732] (interfaces) StdoutLine: {'line': b"Listing '/home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...\n"}
+[2.813369] (-) TimerEvent: {}
+[2.823870] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.827474] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.830947] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.834706] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so\n'}
+[2.836319] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/msg/Uint8Array.idl\n'}
+[2.836977] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/msg/Uint8Array.msg\n'}
+[2.837576] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[2.838295] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[2.839034] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[2.839612] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[2.840167] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/environment/path.sh\n'}
+[2.840812] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[2.841378] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/local_setup.bash\n'}
+[2.842016] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/local_setup.sh\n'}
+[2.843381] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[2.844197] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[2.844855] (interfaces) StdoutLine: {'line': b'-- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/package.dsv\n'}
+[2.845603] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[2.847029] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake\n'}
+[2.847969] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.849977] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.850726] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.852550] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake\n'}
+[2.854791] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.855472] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.857433] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.858126] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.860266] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[2.861126] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.870887] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.871851] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.874185] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[2.875209] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.877745] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake\n'}
+[2.878750] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.879671] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[2.880567] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.881457] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.882384] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.883279] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.884268] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.885075] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.885886] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[2.886750] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[2.887524] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/package.xml\n'}
+[2.895278] (interfaces) CommandEnded: {'returncode': 0}
+[2.914560] (-) TimerEvent: {}
+[3.016573] (-) TimerEvent: {}
+[3.117341] (-) TimerEvent: {}
+[3.218128] (-) TimerEvent: {}
+[3.319037] (-) TimerEvent: {}
+[3.424748] (-) TimerEvent: {}
+[3.481625] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[3.484824] (-) EventReactorShutdown: {}

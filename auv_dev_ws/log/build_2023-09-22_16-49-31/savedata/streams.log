@@ -1,0 +1,30 @@
+[0.072s] Invoking command in '/home/zzf/auv_dev_ws/build/savedata': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zzf/auv_dev_ws/build/savedata -- -j4 -l4
+[0.327s] [ 25%] [32mBuilding CXX object CMakeFiles/Save.dir/src/save.cpp.o[0m
+[0.328s] [ 50%] [32mBuilding CXX object CMakeFiles/MagSave.dir/src/magsave.cpp.o[0m
+[38.677s] [ 75%] [32m[1mLinking CXX executable Save[0m
+[39.017s] [100%] [32m[1mLinking CXX executable MagSave[0m
+[40.930s] [100%] Built target Save
+[41.246s] [100%] Built target MagSave
+[41.288s] Invoked command in '/home/zzf/auv_dev_ws/build/savedata' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zzf/auv_dev_ws/build/savedata -- -j4 -l4
+[41.513s] Invoking command in '/home/zzf/auv_dev_ws/build/savedata': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zzf/auv_dev_ws/build/savedata
+[41.543s] -- Install configuration: ""
+[41.544s] -- Installing: /home/zzf/auv_dev_ws/install/savedata/lib/savedata/Save
+[41.575s] -- Set runtime path of "/home/zzf/auv_dev_ws/install/savedata/lib/savedata/Save" to ""
+[41.576s] -- Installing: /home/zzf/auv_dev_ws/install/savedata/lib/savedata/MagSave
+[41.606s] -- Set runtime path of "/home/zzf/auv_dev_ws/install/savedata/lib/savedata/MagSave" to ""
+[41.607s] -- Installing: /home/zzf/auv_dev_ws/install/savedata/share/ament_index/resource_index/package_run_dependencies/savedata
+[41.609s] -- Installing: /home/zzf/auv_dev_ws/install/savedata/share/ament_index/resource_index/parent_prefix_path/savedata
+[41.611s] -- Installing: /home/zzf/auv_dev_ws/install/savedata/share/savedata/environment/ament_prefix_path.sh
+[41.612s] -- Installing: /home/zzf/auv_dev_ws/install/savedata/share/savedata/environment/ament_prefix_path.dsv
+[41.614s] -- Installing: /home/zzf/auv_dev_ws/install/savedata/share/savedata/environment/path.sh
+[41.615s] -- Installing: /home/zzf/auv_dev_ws/install/savedata/share/savedata/environment/path.dsv
+[41.617s] -- Installing: /home/zzf/auv_dev_ws/install/savedata/share/savedata/local_setup.bash
+[41.619s] -- Installing: /home/zzf/auv_dev_ws/install/savedata/share/savedata/local_setup.sh
+[41.621s] -- Installing: /home/zzf/auv_dev_ws/install/savedata/share/savedata/local_setup.zsh
+[41.622s] -- Installing: /home/zzf/auv_dev_ws/install/savedata/share/savedata/local_setup.dsv
+[41.624s] -- Installing: /home/zzf/auv_dev_ws/install/savedata/share/savedata/package.dsv
+[41.626s] -- Installing: /home/zzf/auv_dev_ws/install/savedata/share/ament_index/resource_index/packages/savedata
+[41.628s] -- Installing: /home/zzf/auv_dev_ws/install/savedata/share/savedata/cmake/savedataConfig.cmake
+[41.629s] -- Installing: /home/zzf/auv_dev_ws/install/savedata/share/savedata/cmake/savedataConfig-version.cmake
+[41.631s] -- Installing: /home/zzf/auv_dev_ws/install/savedata/share/savedata/package.xml
+[41.640s] Invoked command in '/home/zzf/auv_dev_ws/build/savedata' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zzf/auv_dev_ws/build/savedata

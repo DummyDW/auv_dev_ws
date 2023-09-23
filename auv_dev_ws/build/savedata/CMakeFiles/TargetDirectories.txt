@@ -1,0 +1,11 @@
+/home/zzf/auv_dev_ws/build/savedata/CMakeFiles/uninstall.dir
+/home/zzf/auv_dev_ws/build/savedata/CMakeFiles/savedata_uninstall.dir
+/home/zzf/auv_dev_ws/build/savedata/CMakeFiles/Save.dir
+/home/zzf/auv_dev_ws/build/savedata/CMakeFiles/MagSave.dir
+/home/zzf/auv_dev_ws/build/savedata/CMakeFiles/test.dir
+/home/zzf/auv_dev_ws/build/savedata/CMakeFiles/edit_cache.dir
+/home/zzf/auv_dev_ws/build/savedata/CMakeFiles/rebuild_cache.dir
+/home/zzf/auv_dev_ws/build/savedata/CMakeFiles/list_install_components.dir
+/home/zzf/auv_dev_ws/build/savedata/CMakeFiles/install.dir
+/home/zzf/auv_dev_ws/build/savedata/CMakeFiles/install/local.dir
+/home/zzf/auv_dev_ws/build/savedata/CMakeFiles/install/strip.dir

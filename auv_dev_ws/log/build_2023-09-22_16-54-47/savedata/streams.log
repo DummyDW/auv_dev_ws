@@ -1,0 +1,26 @@
+[0.343s] Invoking command in '/home/zzf/auv_dev_ws/build/savedata': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zzf/auv_dev_ws/build/savedata -- -j4 -l4
+[0.856s] [35m[1mConsolidate compiler generated dependencies of target MagSave[0m
+[0.922s] [35m[1mConsolidate compiler generated dependencies of target Save[0m
+[1.129s] [ 50%] Built target MagSave
+[1.290s] [100%] Built target Save
+[1.385s] Invoked command in '/home/zzf/auv_dev_ws/build/savedata' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zzf/auv_dev_ws/build/savedata -- -j4 -l4
+[1.963s] Invoking command in '/home/zzf/auv_dev_ws/build/savedata': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zzf/auv_dev_ws/build/savedata
+[1.997s] -- Install configuration: ""
+[1.999s] -- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/lib/savedata/Save
+[2.003s] -- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/lib/savedata/MagSave
+[2.005s] -- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/ament_index/resource_index/package_run_dependencies/savedata
+[2.006s] -- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/ament_index/resource_index/parent_prefix_path/savedata
+[2.007s] -- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/savedata/environment/ament_prefix_path.sh
+[2.009s] -- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/savedata/environment/ament_prefix_path.dsv
+[2.010s] -- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/savedata/environment/path.sh
+[2.010s] -- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/savedata/environment/path.dsv
+[2.012s] -- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/savedata/local_setup.bash
+[2.013s] -- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/savedata/local_setup.sh
+[2.014s] -- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/savedata/local_setup.zsh
+[2.014s] -- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/savedata/local_setup.dsv
+[2.015s] -- Installing: /home/zzf/auv_dev_ws/install/savedata/share/savedata/package.dsv
+[2.048s] -- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/ament_index/resource_index/packages/savedata
+[2.049s] -- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/savedata/cmake/savedataConfig.cmake
+[2.049s] -- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/savedata/cmake/savedataConfig-version.cmake
+[2.050s] -- Up-to-date: /home/zzf/auv_dev_ws/install/savedata/share/savedata/package.xml
+[2.051s] Invoked command in '/home/zzf/auv_dev_ws/build/savedata' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zzf/auv_dev_ws/build/savedata

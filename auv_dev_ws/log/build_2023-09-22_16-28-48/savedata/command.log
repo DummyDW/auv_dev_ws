@@ -1,0 +1,3 @@
+Invoking command in '/home/zzf/auv_dev_ws/build/savedata': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zzf/auv_dev_ws/src/savedata -DCMAKE_INSTALL_PREFIX=/home/zzf/auv_dev_ws/install/savedata
+Invoked command in '/home/zzf/auv_dev_ws/build/savedata' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zzf/auv_dev_ws/src/savedata -DCMAKE_INSTALL_PREFIX=/home/zzf/auv_dev_ws/install/savedata
+Invoking command in '/home/zzf/auv_dev_ws/build/savedata': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zzf/auv_dev_ws/build/savedata -- -j4 -l4

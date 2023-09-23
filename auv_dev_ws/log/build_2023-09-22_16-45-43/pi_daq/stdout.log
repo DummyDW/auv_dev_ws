@@ -1,0 +1,66 @@
+[ 10%] [32mBuilding CXX object CMakeFiles/Magneto.dir/src/magneto.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/BDGPS.dir/src/bdgps.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/EX3040.dir/src/ex3040.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/P360.dir/src/p360.cpp.o[0m
+[ 25%] [32m[1mLinking CXX executable P360[0m
+[ 30%] [32m[1mLinking CXX executable Magneto[0m
+[ 35%] [32m[1mLinking CXX executable EX3040[0m
+[ 40%] [32m[1mLinking CXX executable BDGPS[0m
+[ 40%] Built target P360
+[ 40%] Built target Magneto
+[ 45%] [32mBuilding CXX object CMakeFiles/STM32.dir/src/stm32.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/UHF.dir/src/uhf.cpp.o[0m
+[ 50%] Built target EX3040
+[ 55%] [32mBuilding CXX object CMakeFiles/UNM3000.dir/src/unm3000.cpp.o[0m
+[ 55%] Built target BDGPS
+[ 60%] [32mBuilding CXX object CMakeFiles/Camera.dir/src/camera.cpp.o[0m
+[ 65%] [32m[1mLinking CXX executable UHF[0m
+[ 70%] [32m[1mLinking CXX executable STM32[0m
+[ 75%] [32m[1mLinking CXX executable Camera[0m
+[ 80%] [32m[1mLinking CXX executable UNM3000[0m
+[ 80%] Built target UHF
+[ 85%] [32mBuilding CXX object CMakeFiles/Pi.dir/src/pi.cpp.o[0m
+[ 85%] Built target STM32
+[ 90%] [32mBuilding CXX object CMakeFiles/Server.dir/src/server.cpp.o[0m
+[ 90%] Built target Camera
+[ 90%] Built target UNM3000
+[ 95%] [32m[1mLinking CXX executable Pi[0m
+[100%] [32m[1mLinking CXX executable Server[0m
+[100%] Built target Pi
+[100%] Built target Server
+-- Install configuration: ""
+-- Installing: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/Magneto
+-- Set runtime path of "/home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/Magneto" to ""
+-- Installing: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/BDGPS
+-- Set runtime path of "/home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/BDGPS" to ""
+-- Installing: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/EX3040
+-- Set runtime path of "/home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/EX3040" to ""
+-- Installing: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/P360
+-- Set runtime path of "/home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/P360" to ""
+-- Installing: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/STM32
+-- Set runtime path of "/home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/STM32" to ""
+-- Installing: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/UHF
+-- Set runtime path of "/home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/UHF" to ""
+-- Installing: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/UNM3000
+-- Set runtime path of "/home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/UNM3000" to ""
+-- Installing: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/Camera
+-- Set runtime path of "/home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/Camera" to ""
+-- Installing: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/Pi
+-- Set runtime path of "/home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/Pi" to ""
+-- Installing: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/Server
+-- Set runtime path of "/home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/Server" to ""
+-- Installing: /home/zzf/auv_dev_ws/install/pi_daq/share/ament_index/resource_index/package_run_dependencies/pi_daq
+-- Installing: /home/zzf/auv_dev_ws/install/pi_daq/share/ament_index/resource_index/parent_prefix_path/pi_daq
+-- Installing: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/environment/ament_prefix_path.sh
+-- Installing: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/environment/ament_prefix_path.dsv
+-- Installing: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/environment/path.sh
+-- Installing: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/environment/path.dsv
+-- Installing: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/local_setup.bash
+-- Installing: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/local_setup.sh
+-- Installing: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/local_setup.zsh
+-- Installing: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/local_setup.dsv
+-- Installing: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/package.dsv
+-- Installing: /home/zzf/auv_dev_ws/install/pi_daq/share/ament_index/resource_index/packages/pi_daq
+-- Installing: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/cmake/pi_daqConfig.cmake
+-- Installing: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/cmake/pi_daqConfig-version.cmake
+-- Installing: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/package.xml

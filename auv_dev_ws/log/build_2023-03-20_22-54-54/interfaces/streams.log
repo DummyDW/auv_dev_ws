@@ -1,0 +1,135 @@
+[0.108s] Invoking command in '/home/zzf/auv_dev_ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zzf/auv_dev_ws/build/interfaces -- -j4 -l4
+[0.344s] gmake: Warning: File 'Makefile' has modification time 16047136 s in the future
+[0.527s] gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 16047136 s in the future
+[0.538s] gmake[2]: Warning: File 'CMakeFiles/interfaces__cpp.dir/progress.make' has modification time 16047136 s in the future
+[0.542s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_copy_interfaces.dir/progress.make' has modification time 16047136 s in the future
+[0.545s] gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_generator_c.dir/flags.make' has modification time 348 s in the future
+[0.582s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.585s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.590s] gmake[2]: Warning: File 'CMakeFiles/interfaces__cpp.dir/progress.make' has modification time 16047136 s in the future
+[0.593s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_copy_interfaces.dir/progress.make' has modification time 16047136 s in the future
+[0.594s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.598s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.606s] gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_generator_c.dir/flags.make' has modification time 348 s in the future
+[0.635s] [  3%] Built target interfaces__cpp
+[0.659s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.661s] gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/flags.make' has modification time 348 s in the future
+[0.663s] gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/flags.make' has modification time 348 s in the future
+[0.666s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.699s] [ 12%] Built target interfaces__rosidl_generator_c
+[0.708s] [ 12%] Built target ament_cmake_python_copy_interfaces
+[0.719s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.724s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.726s] gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/flags.make' has modification time 348 s in the future
+[0.729s] gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/flags.make' has modification time 348 s in the future
+[0.731s] gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make' has modification time 348 s in the future
+[0.735s] gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/flags.make' has modification time 348 s in the future
+[0.770s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.773s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.778s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.783s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.791s] gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/flags.make' has modification time 348 s in the future
+[0.794s] gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make' has modification time 348 s in the future
+[0.803s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.808s] [ 22%] Built target interfaces__rosidl_typesupport_cpp
+[0.810s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.831s] [ 32%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[0.834s] gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/flags.make' has modification time 348 s in the future
+[0.848s] [ 41%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[0.853s] [ 51%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[0.862s] gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_c.dir/flags.make' has modification time 348 s in the future
+[0.866s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_build_interfaces_egg.dir/progress.make' has modification time 16047135 s in the future
+[0.887s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.897s] gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/flags.make' has modification time 348 s in the future
+[0.902s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.907s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.908s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.915s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_build_interfaces_egg.dir/progress.make' has modification time 16047135 s in the future
+[0.919s] gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_c.dir/flags.make' has modification time 348 s in the future
+[0.922s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.938s] [ 61%] Built target interfaces__rosidl_typesupport_introspection_c
+[0.959s] [ 70%] Built target interfaces__rosidl_typesupport_c
+[0.972s] gmake[2]: Warning: File 'CMakeFiles/interfaces.dir/progress.make' has modification time 16047135 s in the future
+[1.013s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.020s] gmake[2]: Warning: File 'CMakeFiles/interfaces.dir/progress.make' has modification time 16047135 s in the future
+[1.021s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.058s] [ 70%] Built target interfaces
+[1.073s] gmake[2]: Warning: File 'interfaces__py/CMakeFiles/interfaces__py.dir/progress.make' has modification time 16047135 s in the future
+[1.116s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.125s] gmake[2]: Warning: File 'interfaces__py/CMakeFiles/interfaces__py.dir/progress.make' has modification time 16047135 s in the future
+[1.129s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.163s] [ 74%] Built target interfaces__py
+[1.180s] gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_generator_py.dir/flags.make' has modification time 348 s in the future
+[1.221s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.232s] gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_generator_py.dir/flags.make' has modification time 348 s in the future
+[1.267s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.303s] [ 80%] Built target interfaces__rosidl_generator_py
+[1.321s] gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/flags.make' has modification time 348 s in the future
+[1.329s] gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/flags.make' has modification time 348 s in the future
+[1.331s] gmake[2]: Warning: File 'CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/flags.make' has modification time 348 s in the future
+[1.365s] Traceback (most recent call last):
+[1.365s]   File "/home/zzf/auv_dev_ws/build/interfaces/ament_cmake_python/interfaces/setup.py", line 1, in <module>
+[1.368s]     from setuptools import find_packages
+[1.369s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[1.371s] gmake[2]: *** [CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build.make:148: CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/depend] Interrupt
+[1.373s] gmake[2]: *** [CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/build.make:147: CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/depend] Interrupt
+[1.373s] gmake[1]: *** [CMakeFiles/Makefile2:504: CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all] Interrupt
+[1.374s] gmake[2]: *** [CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make:148: CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/depend] Interrupt
+[1.374s]     import setuptools.version
+[1.375s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[1.375s] gmake[1]: *** [CMakeFiles/Makefile2:563: CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/all] Interrupt
+[1.376s] gmake[1]: *** [CMakeFiles/Makefile2:534: CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/all] Interrupt
+[1.376s]     import pkg_resources
+[1.377s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 78, in <module>
+[1.377s]     __import__('pkg_resources.extern.packaging.requirements')
+[1.378s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/requirements.py", line 10, in <module>
+[1.378s]     from pkg_resources.extern.pyparsing import (  # noqa
+[1.379s]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[1.379s]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[1.380s]   File "<frozen importlib._bootstrap>", line 674, in _load_unlocked
+[1.380s]   File "<frozen importlib._bootstrap>", line 571, in module_from_spec
+[1.381s]   File "/usr/lib/python3/dist-packages/pkg_resources/extern/__init__.py", line 52, in create_module
+[1.381s]     return self.load_module(spec.name)
+[1.381s]   File "/usr/lib/python3/dist-packages/pkg_resources/extern/__init__.py", line 37, in load_module
+[1.382s]     __import__(extant)
+[1.382s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 5399, in <module>
+[1.383s]     class pyparsing_common:
+[1.384s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 5586, in pyparsing_common
+[1.387s]     ipv6_address = Combine((_full_ipv6_address | _mixed_ipv6_address | _short_ipv6_address).setName("IPv6 address")).setName("IPv6 address")
+[1.387s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 4255, in __init__
+[1.389s]     self.leaveWhitespace()
+[1.390s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3747, in leaveWhitespace
+[1.392s]     self.expr.leaveWhitespace()
+[1.392s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3294, in leaveWhitespace
+[1.394s]     e.leaveWhitespace()
+[1.394s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3294, in leaveWhitespace
+[1.396s]     e.leaveWhitespace()
+[1.397s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3747, in leaveWhitespace
+[1.399s]     self.expr.leaveWhitespace()
+[1.400s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3294, in leaveWhitespace
+[1.401s]     e.leaveWhitespace()
+[1.402s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3747, in leaveWhitespace
+[1.404s]     self.expr.leaveWhitespace()
+[1.404s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3294, in leaveWhitespace
+[1.406s]     e.leaveWhitespace()
+[1.408s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3747, in leaveWhitespace
+[1.409s]     self.expr.leaveWhitespace()
+[1.410s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3294, in leaveWhitespace
+[1.411s]     e.leaveWhitespace()
+[1.412s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3747, in leaveWhitespace
+[1.414s]     self.expr.leaveWhitespace()
+[1.414s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3294, in leaveWhitespace
+[1.416s]     e.leaveWhitespace()
+[1.416s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3745, in leaveWhitespace
+[1.419s]     self.expr = self.expr.copy()
+[1.419s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3364, in copy
+[1.421s]     ret = super(ParseExpression,self).copy()
+[1.421s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 1183, in copy
+[1.422s]     cpy = copy.copy( self )
+[1.422s]   File "/usr/lib/python3.10/copy.py", line 92, in copy
+[1.423s]     rv = reductor(4)
+[1.424s] KeyboardInterrupt
+[1.486s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_interfaces_egg] Interrupt
+[1.487s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_interfaces_egg.dir/all] Interrupt
+[1.487s] gmake: *** [Makefile:146: all] Interrupt
+[1.492s] Invoked command in '/home/zzf/auv_dev_ws/build/interfaces' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zzf/auv_dev_ws/build/interfaces -- -j4 -l4

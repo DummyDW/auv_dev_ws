@@ -1,0 +1,44 @@
+[0.117s] Invoking command in '/home/zzf/auv_dev_ws/build/pi_daq': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zzf/auv_dev_ws/build/pi_daq -- -j4 -l4
+[0.611s] [ 10%] Built target P360
+[0.630s] [ 20%] Built target EX3040
+[0.631s] [ 30%] Built target BDGPS
+[0.719s] [ 40%] Built target Magneto
+[0.972s] [ 50%] Built target STM32
+[1.043s] [ 60%] Built target UNM3000
+[1.070s] [ 70%] Built target Camera
+[1.086s] [ 80%] Built target UHF
+[1.137s] [35m[1mConsolidate compiler generated dependencies of target Pi[0m
+[1.304s] [ 90%] Built target Server
+[1.481s] [ 95%] [32mBuilding CXX object CMakeFiles/Pi.dir/src/pi.cpp.o[0m
+[42.056s] [100%] [32m[1mLinking CXX executable Pi[0m
+[44.406s] [100%] Built target Pi
+[45.162s] Invoked command in '/home/zzf/auv_dev_ws/build/pi_daq' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zzf/auv_dev_ws/build/pi_daq -- -j4 -l4
+[45.539s] Invoking command in '/home/zzf/auv_dev_ws/build/pi_daq': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zzf/auv_dev_ws/build/pi_daq
+[45.569s] -- Install configuration: ""
+[45.571s] -- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/Magneto
+[45.574s] -- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/BDGPS
+[45.576s] -- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/EX3040
+[45.581s] -- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/P360
+[45.582s] -- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/STM32
+[45.585s] -- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/UHF
+[45.587s] -- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/UNM3000
+[45.590s] -- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/Camera
+[45.592s] -- Installing: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/Pi
+[45.631s] -- Set runtime path of "/home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/Pi" to ""
+[45.633s] -- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/Server
+[45.635s] -- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/ament_index/resource_index/package_run_dependencies/pi_daq
+[45.636s] -- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/ament_index/resource_index/parent_prefix_path/pi_daq
+[45.638s] -- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/environment/ament_prefix_path.sh
+[45.639s] -- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/environment/ament_prefix_path.dsv
+[45.640s] -- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/environment/path.sh
+[45.641s] -- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/environment/path.dsv
+[45.642s] -- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/local_setup.bash
+[45.643s] -- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/local_setup.sh
+[45.643s] -- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/local_setup.zsh
+[45.644s] -- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/local_setup.dsv
+[45.645s] -- Installing: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/package.dsv
+[45.646s] -- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/ament_index/resource_index/packages/pi_daq
+[45.649s] -- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/cmake/pi_daqConfig.cmake
+[45.660s] -- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/cmake/pi_daqConfig-version.cmake
+[45.661s] -- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/package.xml
+[45.662s] Invoked command in '/home/zzf/auv_dev_ws/build/pi_daq' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zzf/auv_dev_ws/build/pi_daq

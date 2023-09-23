@@ -1,0 +1,40 @@
+[ 10%] Built target P360
+[ 20%] Built target EX3040
+[ 30%] Built target BDGPS
+[ 40%] Built target Magneto
+[ 50%] Built target STM32
+[ 60%] Built target UNM3000
+[ 70%] Built target Camera
+[ 80%] Built target UHF
+[35m[1mConsolidate compiler generated dependencies of target Pi[0m
+[ 90%] Built target Server
+[ 95%] [32mBuilding CXX object CMakeFiles/Pi.dir/src/pi.cpp.o[0m
+[100%] [32m[1mLinking CXX executable Pi[0m
+[100%] Built target Pi
+-- Install configuration: ""
+-- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/Magneto
+-- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/BDGPS
+-- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/EX3040
+-- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/P360
+-- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/STM32
+-- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/UHF
+-- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/UNM3000
+-- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/Camera
+-- Installing: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/Pi
+-- Set runtime path of "/home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/Pi" to ""
+-- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/lib/pi_daq/Server
+-- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/ament_index/resource_index/package_run_dependencies/pi_daq
+-- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/ament_index/resource_index/parent_prefix_path/pi_daq
+-- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/environment/ament_prefix_path.sh
+-- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/environment/path.sh
+-- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/environment/path.dsv
+-- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/local_setup.bash
+-- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/local_setup.sh
+-- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/local_setup.zsh
+-- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/local_setup.dsv
+-- Installing: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/package.dsv
+-- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/ament_index/resource_index/packages/pi_daq
+-- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/cmake/pi_daqConfig.cmake
+-- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/cmake/pi_daqConfig-version.cmake
+-- Up-to-date: /home/zzf/auv_dev_ws/install/pi_daq/share/pi_daq/package.xml

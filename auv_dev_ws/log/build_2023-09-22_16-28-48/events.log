@@ -1,0 +1,852 @@
+[0.000000] (-) TimerEvent: {}
+[0.002759] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.003198] (pi_daq) JobQueued: {'identifier': 'pi_daq', 'dependencies': OrderedDict()}
+[0.003423] (savedata) JobQueued: {'identifier': 'savedata', 'dependencies': OrderedDict()}
+[0.003538] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.049786] (pi_daq) JobStarted: {'identifier': 'pi_daq'}
+[0.086399] (savedata) JobStarted: {'identifier': 'savedata'}
+[0.097355] (-) TimerEvent: {}
+[0.128149] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.131972] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.135206] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zzf/auv_dev_ws/build/interfaces', '--', '-j4', '-l4'], 'cwd': '/home/zzf/auv_dev_ws/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zzf'), ('SSH_CLIENT', '192.168.1.108 6464 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zzf/auv_dev_ws/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/zzf'), ('OLDPWD', '/home/zzf'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e53a5889-b182-44c9-926c-d6ec314616b4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/zzf/auv_dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zzf'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c2ddb0f7e4.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/zzf/auv_dev_ws/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zzf/auv_dev_ws/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.108 6464 192.168.1.103 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/zzf/auv_dev_ws/install/interfaces:/opt/ros/humble')]), 'shell': False}
+[0.149713] (pi_daq) JobProgress: {'identifier': 'pi_daq', 'progress': 'cmake'}
+[0.150778] (pi_daq) Command: {'cmd': ['/usr/bin/cmake', '/home/zzf/auv_dev_ws/src/pi_daq', '-DCMAKE_INSTALL_PREFIX=/home/zzf/auv_dev_ws/install/pi_daq'], 'cwd': '/home/zzf/auv_dev_ws/build/pi_daq', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zzf'), ('SSH_CLIENT', '192.168.1.108 6464 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zzf/auv_dev_ws/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/zzf'), ('OLDPWD', '/home/zzf'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e53a5889-b182-44c9-926c-d6ec314616b4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/zzf/auv_dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zzf'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c2ddb0f7e4.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/zzf/auv_dev_ws/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zzf/auv_dev_ws/build/pi_daq'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.108 6464 192.168.1.103 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/zzf/auv_dev_ws/install/interfaces:/opt/ros/humble')]), 'shell': False}
+[0.171706] (savedata) JobProgress: {'identifier': 'savedata', 'progress': 'cmake'}
+[0.176408] (savedata) Command: {'cmd': ['/usr/bin/cmake', '/home/zzf/auv_dev_ws/src/savedata', '-DCMAKE_INSTALL_PREFIX=/home/zzf/auv_dev_ws/install/savedata'], 'cwd': '/home/zzf/auv_dev_ws/build/savedata', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zzf'), ('SSH_CLIENT', '192.168.1.108 6464 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zzf/auv_dev_ws/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/zzf'), ('OLDPWD', '/home/zzf'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e53a5889-b182-44c9-926c-d6ec314616b4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/zzf/auv_dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zzf'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c2ddb0f7e4.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/zzf/auv_dev_ws/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zzf/auv_dev_ws/build/savedata'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.108 6464 192.168.1.103 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/zzf/auv_dev_ws/install/interfaces:/opt/ros/humble')]), 'shell': False}
+[0.197650] (-) TimerEvent: {}
+[0.298645] (-) TimerEvent: {}
+[0.357378] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_generator_c\x1b[0m\n'}
+[0.398864] (-) TimerEvent: {}
+[0.448345] (interfaces) StdoutLine: {'line': b'[  3%] Built target interfaces__cpp\n'}
+[0.499171] (-) TimerEvent: {}
+[0.506934] (interfaces) StdoutLine: {'line': b'[ 12%] Built target interfaces__rosidl_generator_c\n'}
+[0.531053] (savedata) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.538455] (pi_daq) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.539662] (interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_interfaces\n'}
+[0.576449] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.598320] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.599290] (-) TimerEvent: {}
+[0.654423] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.661806] (interfaces) StdoutLine: {'line': b'[ 22%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[0.687040] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.699523] (-) TimerEvent: {}
+[0.738379] (interfaces) StdoutLine: {'line': b'[ 32%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.745513] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.764980] (interfaces) StdoutLine: {'line': b'[ 41%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.796591] (interfaces) StdoutLine: {'line': b'[ 51%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.799761] (-) TimerEvent: {}
+[0.822851] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[0.859451] (interfaces) StdoutLine: {'line': b'[ 61%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[0.900224] (-) TimerEvent: {}
+[0.920006] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces__rosidl_typesupport_c\n'}
+[0.966226] (pi_daq) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.000379] (-) TimerEvent: {}
+[1.036317] (pi_daq) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.039678] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces\n'}
+[1.060501] (savedata) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.100584] (-) TimerEvent: {}
+[1.110926] (savedata) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.161270] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__py\n'}
+[1.200888] (-) TimerEvent: {}
+[1.227127] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_generator_py\x1b[0m\n'}
+[1.301170] (-) TimerEvent: {}
+[1.382887] (interfaces) StdoutLine: {'line': b'[ 80%] Built target interfaces__rosidl_generator_py\n'}
+[1.401409] (-) TimerEvent: {}
+[1.456572] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.480507] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.501428] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.502122] (-) TimerEvent: {}
+[1.602967] (-) TimerEvent: {}
+[1.629496] (interfaces) StdoutLine: {'line': b'[ 87%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.637774] (interfaces) StdoutLine: {'line': b'[ 93%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.671288] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[1.692134] (pi_daq) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.703309] (-) TimerEvent: {}
+[1.731036] (savedata) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.736710] (pi_daq) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.737889] (pi_daq) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.739655] (pi_daq) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.753650] (pi_daq) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.769011] (savedata) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.771338] (savedata) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.774300] (savedata) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.791583] (savedata) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.803527] (-) TimerEvent: {}
+[1.904446] (-) TimerEvent: {}
+[2.005347] (-) TimerEvent: {}
+[2.106194] (-) TimerEvent: {}
+[2.190556] (pi_daq) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.206649] (-) TimerEvent: {}
+[2.227856] (pi_daq) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.229372] (pi_daq) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.231712] (pi_daq) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.252194] (savedata) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.259989] (pi_daq) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.289365] (savedata) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.291668] (savedata) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.294585] (savedata) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.306812] (-) TimerEvent: {}
+[2.324639] (savedata) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.407050] (-) TimerEvent: {}
+[2.509242] (-) TimerEvent: {}
+[2.611765] (-) TimerEvent: {}
+[2.712961] (-) TimerEvent: {}
+[2.754283] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.760036] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[2.762816] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[2.765596] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[2.775208] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[2.778963] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[2.813325] (-) TimerEvent: {}
+[2.915515] (-) TimerEvent: {}
+[2.961690] (interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[3.018784] (interfaces) CommandEnded: {'returncode': 0}
+[3.026609] (-) TimerEvent: {}
+[3.128838] (-) TimerEvent: {}
+[3.231935] (-) TimerEvent: {}
+[3.334048] (-) TimerEvent: {}
+[3.434968] (-) TimerEvent: {}
+[3.445401] (pi_daq) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[3.466786] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[3.500394] (savedata) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[3.520391] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zzf/auv_dev_ws/build/interfaces'], 'cwd': '/home/zzf/auv_dev_ws/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zzf'), ('SSH_CLIENT', '192.168.1.108 6464 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zzf/auv_dev_ws/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/zzf'), ('OLDPWD', '/home/zzf'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e53a5889-b182-44c9-926c-d6ec314616b4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/zzf/auv_dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zzf'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c2ddb0f7e4.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/zzf/auv_dev_ws/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zzf/auv_dev_ws/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.108 6464 192.168.1.103 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/zzf/auv_dev_ws/install/interfaces:/opt/ros/humble')]), 'shell': False}
+[3.535223] (-) TimerEvent: {}
+[3.558277] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.561182] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[3.561943] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces\n'}
+[3.562555] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[3.563170] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.563756] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/uint8_array.h\n'}
+[3.570585] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[3.571551] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__functions.h\n'}
+[3.572125] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__struct.h\n'}
+[3.577207] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__type_support.h\n'}
+[3.578190] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__functions.c\n'}
+[3.578754] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[3.584580] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[3.585713] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[3.586314] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces\n'}
+[3.586889] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[3.587586] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.588619] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[3.589324] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__rosidl_typesupport_fastrtps_c.h\n'}
+[3.599493] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.600396] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces\n'}
+[3.601608] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[3.602519] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[3.603271] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__traits.hpp\n'}
+[3.603903] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__struct.hpp\n'}
+[3.604425] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__builder.hpp\n'}
+[3.604912] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/uint8_array.hpp\n'}
+[3.610247] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces\n'}
+[3.611025] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[3.611764] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.612535] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[3.613264] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.614161] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps\n'}
+[3.622244] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.623144] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces\n'}
+[3.623735] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[3.624312] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.625275] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[3.626084] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__rosidl_typesupport_introspection_c.h\n'}
+[3.626952] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__type_support.c\n'}
+[3.627981] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.628757] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[3.629460] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces\n'}
+[3.630236] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[3.630931] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[3.631650] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.632483] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/uint8_array__type_support.cpp\n'}
+[3.641377] (-) TimerEvent: {}
+[3.642149] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.642945] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[3.643613] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[3.644216] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[3.644733] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info\n'}
+[3.645317] (interfaces) StdoutLine: {'line': b'-- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.646041] (interfaces) StdoutLine: {'line': b'-- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.646703] (interfaces) StdoutLine: {'line': b'-- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.647172] (interfaces) StdoutLine: {'line': b'-- Installing: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.647716] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces\n'}
+[3.661710] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.662436] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py\n'}
+[3.663203] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg\n'}
+[3.663879] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py\n'}
+[3.664766] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_uint8_array.py\n'}
+[3.665630] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_uint8_array_s.c\n'}
+[3.666370] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.667074] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.667995] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[3.669104] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.670731] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so\n'}
+[3.672160] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.741612] (-) TimerEvent: {}
+[3.827463] (interfaces) StdoutLine: {'line': b"Listing '/home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...\n"}
+[3.830360] (interfaces) StdoutLine: {'line': b"Listing '/home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...\n"}
+[3.844043] (-) TimerEvent: {}
+[3.873716] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.874869] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.876076] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.878084] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so\n'}
+[3.881372] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/msg/Uint8Array.idl\n'}
+[3.885441] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/msg/Uint8Array.msg\n'}
+[3.888995] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[3.894034] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[3.898814] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[3.902172] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[3.903154] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/environment/path.sh\n'}
+[3.906085] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[3.906558] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/local_setup.bash\n'}
+[3.906947] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/local_setup.sh\n'}
+[3.907316] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[3.907689] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[3.908147] (interfaces) StdoutLine: {'line': b'-- Installing: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/package.dsv\n'}
+[3.908533] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[3.910699] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake\n'}
+[3.912712] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.913246] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.913648] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.914104] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.914511] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.914938] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.922038] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.922680] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.924535] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.924954] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.927660] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.928326] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.931313] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.932036] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.934107] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake\n'}
+[3.934761] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.935505] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.941761] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.944752] (-) TimerEvent: {}
+[3.945317] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.945908] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.946275] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.946633] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.946967] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.947291] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[3.947616] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[3.948035] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzf/auv_dev_ws/install/interfaces/share/interfaces/package.xml\n'}
+[3.948453] (interfaces) CommandEnded: {'returncode': 0}
+[4.044982] (-) TimerEvent: {}
+[4.145847] (-) TimerEvent: {}
+[4.169397] (pi_daq) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.241649] (savedata) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.247411] (-) TimerEvent: {}
+[4.348171] (-) TimerEvent: {}
+[4.455972] (-) TimerEvent: {}
+[4.543221] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[4.556161] (-) TimerEvent: {}
+[4.593713] (pi_daq) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.644046] (pi_daq) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.652446] (savedata) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.656365] (-) TimerEvent: {}
+[4.703312] (savedata) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.711096] (pi_daq) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.756570] (-) TimerEvent: {}
+[4.770506] (savedata) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.803984] (pi_daq) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.856751] (-) TimerEvent: {}
+[4.861582] (savedata) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.936964] (pi_daq) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.956952] (-) TimerEvent: {}
+[4.996867] (savedata) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.057187] (-) TimerEvent: {}
+[5.158105] (-) TimerEvent: {}
+[5.259582] (-) TimerEvent: {}
+[5.361222] (-) TimerEvent: {}
+[5.427848] (pi_daq) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.447182] (savedata) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.457407] (pi_daq) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.461381] (-) TimerEvent: {}
+[5.472973] (savedata) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.561672] (-) TimerEvent: {}
+[5.662658] (-) TimerEvent: {}
+[5.763492] (-) TimerEvent: {}
+[5.864387] (-) TimerEvent: {}
+[5.965307] (-) TimerEvent: {}
+[6.066910] (-) TimerEvent: {}
+[6.167790] (-) TimerEvent: {}
+[6.191063] (savedata) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.191950] (pi_daq) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.268096] (-) TimerEvent: {}
+[6.369195] (-) TimerEvent: {}
+[6.470111] (-) TimerEvent: {}
+[6.471575] (savedata) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.472361] (pi_daq) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.570304] (-) TimerEvent: {}
+[6.671131] (-) TimerEvent: {}
+[6.771940] (-) TimerEvent: {}
+[6.882656] (-) TimerEvent: {}
+[6.939935] (pi_daq) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.940680] (savedata) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.982846] (-) TimerEvent: {}
+[7.044171] (pi_daq) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.044968] (savedata) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.083051] (-) TimerEvent: {}
+[7.183892] (-) TimerEvent: {}
+[7.284793] (-) TimerEvent: {}
+[7.386513] (-) TimerEvent: {}
+[7.432045] (savedata) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.432944] (pi_daq) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.434224] (pi_daq) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.434849] (savedata) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.486651] (-) TimerEvent: {}
+[7.587572] (-) TimerEvent: {}
+[7.688932] (-) TimerEvent: {}
+[7.790321] (-) TimerEvent: {}
+[7.808075] (savedata) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.808870] (pi_daq) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.812659] (savedata) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.813624] (pi_daq) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.890505] (-) TimerEvent: {}
+[7.991347] (-) TimerEvent: {}
+[8.092308] (-) TimerEvent: {}
+[8.193228] (-) TimerEvent: {}
+[8.294233] (-) TimerEvent: {}
+[8.395167] (-) TimerEvent: {}
+[8.496055] (-) TimerEvent: {}
+[8.597016] (-) TimerEvent: {}
+[8.649342] (pi_daq) StdoutLine: {'line': b'-- Found interfaces: 0.0.0 (/home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake)\n'}
+[8.650102] (savedata) StdoutLine: {'line': b'-- Found interfaces: 0.0.0 (/home/zzf/auv_dev_ws/install/interfaces/share/interfaces/cmake)\n'}
+[8.697248] (-) TimerEvent: {}
+[8.798151] (-) TimerEvent: {}
+[8.899526] (-) TimerEvent: {}
+[9.001024] (-) TimerEvent: {}
+[9.102173] (-) TimerEvent: {}
+[9.203611] (-) TimerEvent: {}
+[9.304436] (-) TimerEvent: {}
+[9.327422] (savedata) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.328159] (pi_daq) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.404652] (-) TimerEvent: {}
+[9.505535] (-) TimerEvent: {}
+[9.606380] (-) TimerEvent: {}
+[9.707240] (-) TimerEvent: {}
+[9.808076] (-) TimerEvent: {}
+[9.874218] (savedata) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.875374] (savedata) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[9.875952] (savedata) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.878884] (savedata) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.885006] (savedata) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.885737] (savedata) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.887677] (savedata) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.895229] (savedata) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.908242] (-) TimerEvent: {}
+[9.910218] (pi_daq) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.912359] (pi_daq) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/zzf/auv_dev_ws/src/pi_daq/include\n'}
+[9.912913] (pi_daq) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.919590] (pi_daq) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.934801] (pi_daq) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.935556] (pi_daq) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.938443] (pi_daq) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.945967] (pi_daq) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.984218] (savedata) StdoutLine: {'line': b'-- Generating done\n'}
+[9.992931] (savedata) StdoutLine: {'line': b'-- Build files have been written to: /home/zzf/auv_dev_ws/build/savedata\n'}
+[10.008607] (-) TimerEvent: {}
+[10.035838] (savedata) CommandEnded: {'returncode': 0}
+[10.038077] (savedata) JobProgress: {'identifier': 'savedata', 'progress': 'build'}
+[10.039386] (savedata) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zzf/auv_dev_ws/build/savedata', '--', '-j4', '-l4'], 'cwd': '/home/zzf/auv_dev_ws/build/savedata', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zzf'), ('SSH_CLIENT', '192.168.1.108 6464 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zzf/auv_dev_ws/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/zzf'), ('OLDPWD', '/home/zzf'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e53a5889-b182-44c9-926c-d6ec314616b4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/zzf/auv_dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zzf'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c2ddb0f7e4.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/zzf/auv_dev_ws/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zzf/auv_dev_ws/build/savedata'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.108 6464 192.168.1.103 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/zzf/auv_dev_ws/install/interfaces:/opt/ros/humble')]), 'shell': False}
+[10.108781] (-) TimerEvent: {}
+[10.196643] (pi_daq) StdoutLine: {'line': b'-- Generating done\n'}
+[10.208995] (-) TimerEvent: {}
+[10.210152] (pi_daq) StdoutLine: {'line': b'-- Build files have been written to: /home/zzf/auv_dev_ws/build/pi_daq\n'}
+[10.263606] (pi_daq) CommandEnded: {'returncode': 0}
+[10.268525] (pi_daq) JobProgress: {'identifier': 'pi_daq', 'progress': 'build'}
+[10.268706] (pi_daq) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zzf/auv_dev_ws/build/pi_daq', '--', '-j4', '-l4'], 'cwd': '/home/zzf/auv_dev_ws/build/pi_daq', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zzf'), ('SSH_CLIENT', '192.168.1.108 6464 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zzf/auv_dev_ws/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/zzf'), ('OLDPWD', '/home/zzf'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e53a5889-b182-44c9-926c-d6ec314616b4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/zzf/auv_dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zzf'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zzf/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c2ddb0f7e4.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/zzf/auv_dev_ws/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zzf/auv_dev_ws/build/pi_daq'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.108 6464 192.168.1.103 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zzf/auv_dev_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/zzf/auv_dev_ws/install/interfaces:/opt/ros/humble')]), 'shell': False}
+[10.295917] (savedata) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/MagSave.dir/src/magsave.cpp.o\x1b[0m\n'}
+[10.309271] (-) TimerEvent: {}
+[10.314655] (savedata) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/Save.dir/src/save.cpp.o\x1b[0m\n'}
+[10.409471] (-) TimerEvent: {}
+[10.510436] (-) TimerEvent: {}
+[10.580862] (pi_daq) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/Magneto.dir/src/magneto.cpp.o\x1b[0m\n'}
+[10.607237] (pi_daq) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/EX3040.dir/src/ex3040.cpp.o\x1b[0m\n'}
+[10.610655] (-) TimerEvent: {}
+[10.636789] (pi_daq) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/BDGPS.dir/src/bdgps.cpp.o\x1b[0m\n'}
+[10.645700] (pi_daq) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/P360.dir/src/p360.cpp.o\x1b[0m\n'}
+[10.711049] (-) TimerEvent: {}
+[10.814598] (-) TimerEvent: {}
+[10.916598] (-) TimerEvent: {}
+[11.019086] (-) TimerEvent: {}
+[11.121134] (-) TimerEvent: {}
+[11.223726] (-) TimerEvent: {}
+[11.325624] (-) TimerEvent: {}
+[11.427618] (-) TimerEvent: {}
+[11.529514] (-) TimerEvent: {}
+[11.631354] (-) TimerEvent: {}
+[11.734019] (-) TimerEvent: {}
+[11.835191] (-) TimerEvent: {}
+[11.936050] (-) TimerEvent: {}
+[12.036911] (-) TimerEvent: {}
+[12.137769] (-) TimerEvent: {}
+[12.238703] (-) TimerEvent: {}
+[12.339713] (-) TimerEvent: {}
+[12.440592] (-) TimerEvent: {}
+[12.542198] (-) TimerEvent: {}
+[12.643598] (-) TimerEvent: {}
+[12.745236] (-) TimerEvent: {}
+[12.847154] (-) TimerEvent: {}
+[12.948947] (-) TimerEvent: {}
+[13.050929] (-) TimerEvent: {}
+[13.152929] (-) TimerEvent: {}
+[13.254981] (-) TimerEvent: {}
+[13.356821] (-) TimerEvent: {}
+[13.458949] (-) TimerEvent: {}
+[13.561564] (-) TimerEvent: {}
+[13.664090] (-) TimerEvent: {}
+[13.767246] (-) TimerEvent: {}
+[13.869898] (-) TimerEvent: {}
+[13.972799] (-) TimerEvent: {}
+[14.075326] (-) TimerEvent: {}
+[14.178130] (-) TimerEvent: {}
+[14.280889] (-) TimerEvent: {}
+[14.383623] (-) TimerEvent: {}
+[14.485533] (-) TimerEvent: {}
+[14.587255] (-) TimerEvent: {}
+[14.689392] (-) TimerEvent: {}
+[14.790438] (-) TimerEvent: {}
+[14.891511] (-) TimerEvent: {}
+[14.992635] (-) TimerEvent: {}
+[15.094543] (-) TimerEvent: {}
+[15.195894] (-) TimerEvent: {}
+[15.297103] (-) TimerEvent: {}
+[15.398162] (-) TimerEvent: {}
+[15.499205] (-) TimerEvent: {}
+[15.600240] (-) TimerEvent: {}
+[15.701386] (-) TimerEvent: {}
+[15.802727] (-) TimerEvent: {}
+[15.904046] (-) TimerEvent: {}
+[16.005570] (-) TimerEvent: {}
+[16.107383] (-) TimerEvent: {}
+[16.208539] (-) TimerEvent: {}
+[16.309698] (-) TimerEvent: {}
+[16.410862] (-) TimerEvent: {}
+[16.511867] (-) TimerEvent: {}
+[16.613323] (-) TimerEvent: {}
+[16.715900] (-) TimerEvent: {}
+[16.819015] (-) TimerEvent: {}
+[16.922180] (-) TimerEvent: {}
+[17.024851] (-) TimerEvent: {}
+[17.127545] (-) TimerEvent: {}
+[17.230248] (-) TimerEvent: {}
+[17.331258] (-) TimerEvent: {}
+[17.432280] (-) TimerEvent: {}
+[17.535306] (-) TimerEvent: {}
+[17.638018] (-) TimerEvent: {}
+[17.740577] (-) TimerEvent: {}
+[17.843585] (-) TimerEvent: {}
+[17.946790] (-) TimerEvent: {}
+[18.049719] (-) TimerEvent: {}
+[18.152956] (-) TimerEvent: {}
+[18.255592] (-) TimerEvent: {}
+[18.358557] (-) TimerEvent: {}
+[18.461845] (-) TimerEvent: {}
+[18.564488] (-) TimerEvent: {}
+[18.667051] (-) TimerEvent: {}
+[18.770185] (-) TimerEvent: {}
+[18.872956] (-) TimerEvent: {}
+[18.974165] (-) TimerEvent: {}
+[19.075452] (-) TimerEvent: {}
+[19.176600] (-) TimerEvent: {}
+[19.277931] (-) TimerEvent: {}
+[19.378974] (-) TimerEvent: {}
+[19.480049] (-) TimerEvent: {}
+[19.581248] (-) TimerEvent: {}
+[19.682385] (-) TimerEvent: {}
+[19.783419] (-) TimerEvent: {}
+[19.884524] (-) TimerEvent: {}
+[19.985680] (-) TimerEvent: {}
+[20.086757] (-) TimerEvent: {}
+[20.187788] (-) TimerEvent: {}
+[20.288815] (-) TimerEvent: {}
+[20.389846] (-) TimerEvent: {}
+[20.490982] (-) TimerEvent: {}
+[20.592359] (-) TimerEvent: {}
+[20.693492] (-) TimerEvent: {}
+[20.794829] (-) TimerEvent: {}
+[20.895945] (-) TimerEvent: {}
+[20.997195] (-) TimerEvent: {}
+[21.098366] (-) TimerEvent: {}
+[21.199432] (-) TimerEvent: {}
+[21.300542] (-) TimerEvent: {}
+[21.401606] (-) TimerEvent: {}
+[21.502691] (-) TimerEvent: {}
+[21.603838] (-) TimerEvent: {}
+[21.704866] (-) TimerEvent: {}
+[21.806061] (-) TimerEvent: {}
+[21.907087] (-) TimerEvent: {}
+[22.008165] (-) TimerEvent: {}
+[22.109305] (-) TimerEvent: {}
+[22.210376] (-) TimerEvent: {}
+[22.311386] (-) TimerEvent: {}
+[22.412430] (-) TimerEvent: {}
+[22.513543] (-) TimerEvent: {}
+[22.614572] (-) TimerEvent: {}
+[22.715738] (-) TimerEvent: {}
+[22.816847] (-) TimerEvent: {}
+[22.918039] (-) TimerEvent: {}
+[23.019079] (-) TimerEvent: {}
+[23.120106] (-) TimerEvent: {}
+[23.221168] (-) TimerEvent: {}
+[23.322193] (-) TimerEvent: {}
+[23.423232] (-) TimerEvent: {}
+[23.524270] (-) TimerEvent: {}
+[23.625345] (-) TimerEvent: {}
+[23.726495] (-) TimerEvent: {}
+[23.827531] (-) TimerEvent: {}
+[23.928648] (-) TimerEvent: {}
+[24.029713] (-) TimerEvent: {}
+[24.130748] (-) TimerEvent: {}
+[24.231873] (-) TimerEvent: {}
+[24.332932] (-) TimerEvent: {}
+[24.434113] (-) TimerEvent: {}
+[24.535147] (-) TimerEvent: {}
+[24.636217] (-) TimerEvent: {}
+[24.737285] (-) TimerEvent: {}
+[24.838289] (-) TimerEvent: {}
+[24.939308] (-) TimerEvent: {}
+[25.040844] (-) TimerEvent: {}
+[25.142059] (-) TimerEvent: {}
+[25.243186] (-) TimerEvent: {}
+[25.344622] (-) TimerEvent: {}
+[25.446023] (-) TimerEvent: {}
+[25.547218] (-) TimerEvent: {}
+[25.648409] (-) TimerEvent: {}
+[25.749423] (-) TimerEvent: {}
+[25.850443] (-) TimerEvent: {}
+[25.951495] (-) TimerEvent: {}
+[26.052528] (-) TimerEvent: {}
+[26.153653] (-) TimerEvent: {}
+[26.254871] (-) TimerEvent: {}
+[26.355937] (-) TimerEvent: {}
+[26.456988] (-) TimerEvent: {}
+[26.558110] (-) TimerEvent: {}
+[26.659186] (-) TimerEvent: {}
+[26.760221] (-) TimerEvent: {}
+[26.861287] (-) TimerEvent: {}
+[26.962301] (-) TimerEvent: {}
+[27.063310] (-) TimerEvent: {}
+[27.164380] (-) TimerEvent: {}
+[27.265460] (-) TimerEvent: {}
+[27.366583] (-) TimerEvent: {}
+[27.467675] (-) TimerEvent: {}
+[27.568718] (-) TimerEvent: {}
+[27.669849] (-) TimerEvent: {}
+[27.770942] (-) TimerEvent: {}
+[27.872014] (-) TimerEvent: {}
+[27.973086] (-) TimerEvent: {}
+[28.074125] (-) TimerEvent: {}
+[28.175185] (-) TimerEvent: {}
+[28.276197] (-) TimerEvent: {}
+[28.377291] (-) TimerEvent: {}
+[28.478357] (-) TimerEvent: {}
+[28.580041] (-) TimerEvent: {}
+[28.681934] (-) TimerEvent: {}
+[28.784032] (-) TimerEvent: {}
+[28.886563] (-) TimerEvent: {}
+[28.989208] (-) TimerEvent: {}
+[29.091773] (-) TimerEvent: {}
+[29.194397] (-) TimerEvent: {}
+[29.296890] (-) TimerEvent: {}
+[29.399506] (-) TimerEvent: {}
+[29.502233] (-) TimerEvent: {}
+[29.605287] (-) TimerEvent: {}
+[29.708489] (-) TimerEvent: {}
+[29.812605] (-) TimerEvent: {}
+[29.914414] (-) TimerEvent: {}
+[30.016215] (-) TimerEvent: {}
+[30.118126] (-) TimerEvent: {}
+[30.219862] (-) TimerEvent: {}
+[30.321636] (-) TimerEvent: {}
+[30.423463] (-) TimerEvent: {}
+[30.525765] (-) TimerEvent: {}
+[30.628532] (-) TimerEvent: {}
+[30.731192] (-) TimerEvent: {}
+[30.833952] (-) TimerEvent: {}
+[30.936548] (-) TimerEvent: {}
+[31.039198] (-) TimerEvent: {}
+[31.141824] (-) TimerEvent: {}
+[31.244630] (-) TimerEvent: {}
+[31.347653] (-) TimerEvent: {}
+[31.450501] (-) TimerEvent: {}
+[31.553293] (-) TimerEvent: {}
+[31.656391] (-) TimerEvent: {}
+[31.758989] (-) TimerEvent: {}
+[31.861774] (-) TimerEvent: {}
+[31.964629] (-) TimerEvent: {}
+[32.067687] (-) TimerEvent: {}
+[32.170570] (-) TimerEvent: {}
+[32.273270] (-) TimerEvent: {}
+[32.375910] (-) TimerEvent: {}
+[32.478592] (-) TimerEvent: {}
+[32.581885] (-) TimerEvent: {}
+[32.682940] (-) TimerEvent: {}
+[32.785680] (-) TimerEvent: {}
+[32.888288] (-) TimerEvent: {}
+[32.990887] (-) TimerEvent: {}
+[33.093535] (-) TimerEvent: {}
+[33.196270] (-) TimerEvent: {}
+[33.298955] (-) TimerEvent: {}
+[33.401844] (-) TimerEvent: {}
+[33.504784] (-) TimerEvent: {}
+[33.607672] (-) TimerEvent: {}
+[33.709751] (-) TimerEvent: {}
+[33.810874] (-) TimerEvent: {}
+[33.911973] (-) TimerEvent: {}
+[34.013167] (-) TimerEvent: {}
+[34.114289] (-) TimerEvent: {}
+[34.216115] (-) TimerEvent: {}
+[34.317917] (-) TimerEvent: {}
+[34.419713] (-) TimerEvent: {}
+[34.521502] (-) TimerEvent: {}
+[34.623260] (-) TimerEvent: {}
+[34.724249] (-) TimerEvent: {}
+[34.825261] (-) TimerEvent: {}
+[34.926312] (-) TimerEvent: {}
+[35.027389] (-) TimerEvent: {}
+[35.128479] (-) TimerEvent: {}
+[35.229585] (-) TimerEvent: {}
+[35.330667] (-) TimerEvent: {}
+[35.431847] (-) TimerEvent: {}
+[35.533034] (-) TimerEvent: {}
+[35.634268] (-) TimerEvent: {}
+[35.735358] (-) TimerEvent: {}
+[35.836441] (-) TimerEvent: {}
+[35.937531] (-) TimerEvent: {}
+[36.040084] (-) TimerEvent: {}
+[36.142714] (-) TimerEvent: {}
+[36.245286] (-) TimerEvent: {}
+[36.346351] (-) TimerEvent: {}
+[36.447950] (-) TimerEvent: {}
+[36.550095] (-) TimerEvent: {}
+[36.652793] (-) TimerEvent: {}
+[36.755478] (-) TimerEvent: {}
+[36.862505] (-) TimerEvent: {}
+[36.965081] (-) TimerEvent: {}
+[37.067569] (-) TimerEvent: {}
+[37.170274] (-) TimerEvent: {}
+[37.273650] (-) TimerEvent: {}
+[37.376274] (-) TimerEvent: {}
+[37.478926] (-) TimerEvent: {}
+[37.580687] (-) TimerEvent: {}
+[37.682450] (-) TimerEvent: {}
+[37.783521] (-) TimerEvent: {}
+[37.884579] (-) TimerEvent: {}
+[37.985636] (-) TimerEvent: {}
+[38.086790] (-) TimerEvent: {}
+[38.187870] (-) TimerEvent: {}
+[38.289526] (-) TimerEvent: {}
+[38.391242] (-) TimerEvent: {}
+[38.493335] (-) TimerEvent: {}
+[38.595914] (-) TimerEvent: {}
+[38.698595] (-) TimerEvent: {}
+[38.801269] (-) TimerEvent: {}
+[38.903910] (-) TimerEvent: {}
+[39.006537] (-) TimerEvent: {}
+[39.107684] (-) TimerEvent: {}
+[39.209334] (-) TimerEvent: {}
+[39.311352] (-) TimerEvent: {}
+[39.413506] (-) TimerEvent: {}
+[39.515594] (-) TimerEvent: {}
+[39.617408] (-) TimerEvent: {}
+[39.719152] (-) TimerEvent: {}
+[39.821343] (-) TimerEvent: {}
+[39.924205] (-) TimerEvent: {}
+[40.026872] (-) TimerEvent: {}
+[40.130580] (-) TimerEvent: {}
+[40.233207] (-) TimerEvent: {}
+[40.335761] (-) TimerEvent: {}
+[40.437818] (-) TimerEvent: {}
+[40.539941] (-) TimerEvent: {}
+[40.645237] (-) TimerEvent: {}
+[40.747790] (-) TimerEvent: {}
+[40.850421] (-) TimerEvent: {}
+[40.953324] (-) TimerEvent: {}
+[41.056262] (-) TimerEvent: {}
+[41.158871] (-) TimerEvent: {}
+[41.261565] (-) TimerEvent: {}
+[41.364267] (-) TimerEvent: {}
+[41.467182] (-) TimerEvent: {}
+[41.569867] (-) TimerEvent: {}
+[41.672558] (-) TimerEvent: {}
+[41.774338] (-) TimerEvent: {}
+[41.876151] (-) TimerEvent: {}
+[41.978798] (-) TimerEvent: {}
+[42.081622] (-) TimerEvent: {}
+[42.184236] (-) TimerEvent: {}
+[42.286857] (-) TimerEvent: {}
+[42.389504] (-) TimerEvent: {}
+[42.492107] (-) TimerEvent: {}
+[42.594954] (-) TimerEvent: {}
+[42.695987] (-) TimerEvent: {}
+[42.799990] (-) TimerEvent: {}
+[42.902598] (-) TimerEvent: {}
+[43.005193] (-) TimerEvent: {}
+[43.107789] (-) TimerEvent: {}
+[43.210282] (-) TimerEvent: {}
+[43.313323] (-) TimerEvent: {}
+[43.416387] (-) TimerEvent: {}
+[43.519077] (-) TimerEvent: {}
+[43.621620] (-) TimerEvent: {}
+[43.724281] (-) TimerEvent: {}
+[43.826983] (-) TimerEvent: {}
+[43.929798] (-) TimerEvent: {}
+[44.032413] (-) TimerEvent: {}
+[44.135019] (-) TimerEvent: {}
+[44.237622] (-) TimerEvent: {}
+[44.340507] (-) TimerEvent: {}
+[44.443609] (-) TimerEvent: {}
+[44.545538] (-) TimerEvent: {}
+[44.647465] (-) TimerEvent: {}
+[44.749527] (-) TimerEvent: {}
+[44.851480] (-) TimerEvent: {}
+[44.953297] (-) TimerEvent: {}
+[45.055472] (-) TimerEvent: {}
+[45.158414] (-) TimerEvent: {}
+[45.261157] (-) TimerEvent: {}
+[45.363866] (-) TimerEvent: {}
+[45.467489] (-) TimerEvent: {}
+[45.574063] (-) TimerEvent: {}
+[45.685114] (-) TimerEvent: {}
+[45.787773] (-) TimerEvent: {}
+[45.890264] (-) TimerEvent: {}
+[45.993130] (-) TimerEvent: {}
+[46.096408] (-) TimerEvent: {}
+[46.199588] (-) TimerEvent: {}
+[46.302411] (-) TimerEvent: {}
+[46.419632] (-) TimerEvent: {}
+[46.522542] (-) TimerEvent: {}
+[46.625236] (-) TimerEvent: {}
+[46.727871] (-) TimerEvent: {}
+[46.829665] (-) TimerEvent: {}
+[46.931581] (-) TimerEvent: {}
+[47.041195] (-) TimerEvent: {}
+[47.142362] (-) TimerEvent: {}
+[47.245188] (-) TimerEvent: {}
+[47.347709] (-) TimerEvent: {}
+[47.449436] (-) TimerEvent: {}
+[47.551130] (-) TimerEvent: {}
+[47.652913] (-) TimerEvent: {}
+[47.754734] (-) TimerEvent: {}
+[47.856281] (-) TimerEvent: {}
+[47.957326] (-) TimerEvent: {}
+[48.058356] (-) TimerEvent: {}
+[48.159423] (-) TimerEvent: {}
+[48.260581] (-) TimerEvent: {}
+[48.363946] (-) TimerEvent: {}
+[48.465868] (-) TimerEvent: {}
+[48.568418] (-) TimerEvent: {}
+[48.670664] (-) TimerEvent: {}
+[48.772738] (-) TimerEvent: {}
+[48.881260] (-) TimerEvent: {}
+[48.983453] (-) TimerEvent: {}
+[49.085826] (-) TimerEvent: {}
+[49.186887] (-) TimerEvent: {}
+[49.288025] (-) TimerEvent: {}
+[49.390890] (-) TimerEvent: {}
+[49.492735] (-) TimerEvent: {}
+[49.594551] (-) TimerEvent: {}
+[49.696213] (-) TimerEvent: {}
+[49.797913] (-) TimerEvent: {}
+[49.900114] (-) TimerEvent: {}
+[50.003066] (-) TimerEvent: {}
+[50.105950] (-) TimerEvent: {}
+[50.208746] (-) TimerEvent: {}
+[50.311581] (-) TimerEvent: {}
+[50.414114] (-) TimerEvent: {}
+[50.516597] (-) TimerEvent: {}
+[50.619398] (-) TimerEvent: {}
+[50.722193] (-) TimerEvent: {}
+[50.825148] (-) TimerEvent: {}
+[50.927309] (-) TimerEvent: {}
+[51.029354] (-) TimerEvent: {}
+[51.131399] (-) TimerEvent: {}
+[51.233296] (-) TimerEvent: {}
+[51.335468] (-) TimerEvent: {}
+[51.436539] (-) TimerEvent: {}
+[51.538788] (-) TimerEvent: {}
+[51.640679] (-) TimerEvent: {}
+[51.743444] (-) TimerEvent: {}
+[51.846273] (-) TimerEvent: {}
+[51.949039] (-) TimerEvent: {}
+[52.054029] (-) TimerEvent: {}
+[52.155937] (-) TimerEvent: {}
+[52.257114] (-) TimerEvent: {}
+[52.358208] (-) TimerEvent: {}
+[52.459262] (-) TimerEvent: {}
+[52.560403] (-) TimerEvent: {}
+[52.661587] (-) TimerEvent: {}
+[52.762745] (-) TimerEvent: {}
+[52.863890] (-) TimerEvent: {}
+[52.965178] (-) TimerEvent: {}
+[53.066470] (-) TimerEvent: {}
+[53.173358] (-) TimerEvent: {}
+[53.275420] (-) TimerEvent: {}
+[53.376673] (-) TimerEvent: {}
+[53.477916] (-) TimerEvent: {}
+[53.579345] (-) TimerEvent: {}
+[53.680485] (-) TimerEvent: {}
+[53.781572] (-) TimerEvent: {}
+[53.884924] (-) TimerEvent: {}
+[53.986160] (-) TimerEvent: {}
+[54.087953] (-) TimerEvent: {}
+[54.189835] (-) TimerEvent: {}
+[54.292282] (-) TimerEvent: {}
+[54.395345] (-) TimerEvent: {}
+[54.496995] (-) TimerEvent: {}
+[54.600735] (-) TimerEvent: {}
+[54.703523] (-) TimerEvent: {}
+[54.806665] (-) TimerEvent: {}
+[54.909289] (-) TimerEvent: {}
+[55.012004] (-) TimerEvent: {}
+[55.115252] (-) TimerEvent: {}
+[55.217894] (-) TimerEvent: {}
+[55.320545] (-) TimerEvent: {}
+[55.423171] (-) TimerEvent: {}
+[55.526712] (-) TimerEvent: {}
+[55.629629] (-) TimerEvent: {}
+[55.732344] (-) TimerEvent: {}
+[55.835493] (-) TimerEvent: {}
+[55.938480] (-) TimerEvent: {}
+[56.041202] (-) TimerEvent: {}
+[56.149404] (-) TimerEvent: {}
+[56.253104] (-) TimerEvent: {}
+[56.355873] (-) TimerEvent: {}
+[56.457978] (-) TimerEvent: {}
+[56.559908] (-) TimerEvent: {}
+[56.662806] (-) TimerEvent: {}
+[56.765312] (-) TimerEvent: {}
+[56.869831] (-) TimerEvent: {}
+[56.973659] (-) TimerEvent: {}
+[57.079766] (-) TimerEvent: {}
+[57.181816] (-) TimerEvent: {}
+[57.285929] (-) TimerEvent: {}
+[57.388841] (-) TimerEvent: {}
+[57.493399] (-) TimerEvent: {}
+[57.595807] (-) TimerEvent: {}
+[57.698378] (-) TimerEvent: {}
+[57.801142] (-) TimerEvent: {}
+[57.904065] (-) TimerEvent: {}
+[58.006840] (-) TimerEvent: {}
+[58.113428] (-) TimerEvent: {}
+[58.217205] (-) TimerEvent: {}
+[58.322537] (-) TimerEvent: {}
+[58.442164] (-) TimerEvent: {}
+[58.622327] (-) TimerEvent: {}
+[58.752282] (-) TimerEvent: {}
+[58.860342] (-) TimerEvent: {}
+[58.965862] (-) TimerEvent: {}
+[59.069163] (-) TimerEvent: {}
+[59.172680] (-) TimerEvent: {}
+[59.275436] (-) TimerEvent: {}
+[59.379024] (-) TimerEvent: {}
+[59.484579] (-) TimerEvent: {}
+[59.614077] (-) TimerEvent: {}
+[71.019516] (-) TimerEvent: {}
+[91.833373] (-) TimerEvent: {}
+[115.528926] (-) TimerEvent: {}
+[278.822425] (-) TimerEvent: {}
+[437.764666] (-) TimerEvent: {}
